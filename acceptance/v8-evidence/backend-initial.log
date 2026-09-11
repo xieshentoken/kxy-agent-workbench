@@ -1,0 +1,44 @@
+test_01_resume_reuses_success_and_preserves_snapshot (__main__.V8Checks.test_01_resume_reuses_success_and_preserves_snapshot) ... /Users/<localuser>/Documents/Codex/DeeSear workflow/kxy/.venv/lib/python3.12/site-packages/passlib/utils/__init__.py:854: DeprecationWarning: 'crypt' is deprecated and slated for removal in Python 3.13
+  from crypt import crypt as _crypt
+ok
+test_02_success_cannot_resume (__main__.V8Checks.test_02_success_cannot_resume) ... ok
+test_03_tampered_success_artifact_blocks_reuse (__main__.V8Checks.test_03_tampered_success_artifact_blocks_reuse) ... ok
+test_04_condition_reconstructs_routing_without_wrong_branch (__main__.V8Checks.test_04_condition_reconstructs_routing_without_wrong_branch) ... ok
+test_05_blackbox_resumes_at_internal_node (__main__.V8Checks.test_05_blackbox_resumes_at_internal_node) ... ok
+test_06_human_rejection_cannot_be_resumed (__main__.V8Checks.test_06_human_rejection_cannot_be_resumed) ... ok
+test_07_approved_checkpoint_not_prompted_again (__main__.V8Checks.test_07_approved_checkpoint_not_prompted_again) ... ok
+test_08_restart_pending_human_still_requires_confirmation (__main__.V8Checks.test_08_restart_pending_human_still_requires_confirmation) ... ok
+test_09_revoked_grant_blocks_resume_before_cli (__main__.V8Checks.test_09_revoked_grant_blocks_resume_before_cli) ... ok
+test_10_partial_export_resume_keeps_published_first_output (__main__.V8Checks.test_10_partial_export_resume_keeps_published_first_output) ... ok
+test_11_real_subprocess_retry_mounts_skill_and_copies_upstream_file (__main__.V8Checks.test_11_real_subprocess_retry_mounts_skill_and_copies_upstream_file) ... FAIL
+test_12_blackbox_preset_keeps_boundary_nodes_and_local_model_reference (__main__.V8Checks.test_12_blackbox_preset_keeps_boundary_nodes_and_local_model_reference) ... ok
+test_13_legacy_analyzers_are_present_once_in_generic_catalog (__main__.V8Checks.test_13_legacy_analyzers_are_present_once_in_generic_catalog) ... ok
+test_14_nested_literal_secret_rejected (__main__.V8Checks.test_14_nested_literal_secret_rejected) ... ok
+test_15_resume_rejected_until_old_worker_finishes_cleanup (__main__.V8Checks.test_15_resume_rejected_until_old_worker_finishes_cleanup) ... FAIL
+
+======================================================================
+FAIL: test_11_real_subprocess_retry_mounts_skill_and_copies_upstream_file (__main__.V8Checks.test_11_real_subprocess_retry_mounts_skill_and_copies_upstream_file)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/<localuser>/Documents/Codex/DeeSear workflow/kxy/acceptance/v8_supervisor_checks.py", line 211, in test_11_real_subprocess_retry_mounts_skill_and_copies_upstream_file
+    final=self.resume(rid);self.assertEqual(final['status'],'succeeded',final.get('error'))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 'failed' != 'succeeded'
+- failed
++ succeeded
+ : Error building Component KXY Analyzer: 
+
+[Errno 2] No such file or directory: '/private/var/folders/p4/xpgbyw151b1c6gj3g__0dv_w0000gp/T/kxy-v8-supervisor-83owooss/synthetic-codex'
+
+======================================================================
+FAIL: test_15_resume_rejected_until_old_worker_finishes_cleanup (__main__.V8Checks.test_15_resume_rejected_until_old_worker_finishes_cleanup)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/<localuser>/Documents/Codex/DeeSear workflow/kxy/acceptance/v8_supervisor_checks.py", line 250, in test_15_resume_rejected_until_old_worker_finishes_cleanup
+    self.assertEqual(r.status_code,409,r.text)
+AssertionError: 200 != 409 : {"id":"e5dafbb039184c60a66648e6e829f40c","status":"pending","attempt":2,"reused_nodes":["a","s"],"rerun_nodes":["b","o"],"snapshot":{"checkpoint_version":"kxy.run.checkpoint.v8","compiled":{"blackboxes":{},"edges":[{"path":"s/a","source":"s","sourceHandle":"result","target":"a","targetHandle":"items"},{"path":"a/b","source":"a","sourceHandle":"result","target":"b","targetHandle":"items"},{"path":"b/o","source":"b","sourceHandle":"result","target":"o","targetHandle":"items"}],"nodes":[{"flat_id":"s","path":"s","type":"text"},{"flat_id":"a","path":"a","type":"analyzer"},{"flat_id":"b","path":"b","type":"analyzer"},{"flat_id":"o","path":"o","type":"container"}]},"created_at":"2026-09-08T12:57:33.331407+00:00","grants":[],"mcp_mappings":{},"mcps":[],"settings":{"accent":"#987a5d","background_image":"","canvas":"#faf8f5","code_font":"","code_font_size":13,"custom_font":"","font":"system","font_size":14,"motion_enabled":true,"motion_intensity":30,"palette":"paper","text_font":"","undo_limit":5},"skill_mappings":{},"skills":[],"sources":{},"version":"kxy.run.v1","workflow":{"edges":[{"id":"s-result-a","source":"s","sourceHandle":"result","target":"a","targetHandle":"items"},{"id":"a-result-b","source":"a","sourceHandle":"result","target":"b","targetHandle":"items"},{"id":"b-result-o","source":"b","sourceHandle":"result","target":"o","targetHandle":"items"}],"name":"V8 independent synthetic","nodes":[{"data":{"text":"synthetic"},"id":"s","position":{"x":0,"y":0},"type":"text"},{"data":{"cli":"codex","prompt":"success","resolved_model":{"agent_id":"codex","alias":"CLI 默认模型","cli":"codex","cli_id":"codex","credential_api_format":null,"credential_endpoint":"","credential_env_name":null,"credential_id":null,"credential_models":[],"credential_name":null,"credential_provider":null,"default_effort":null,"discovery_source":"CLI default","efforts":[],"executable":"/opt/homebrew/lib/node_modules/@openai/codex/bin/codex.js","model":"","model_id":null,"model_ref":null,"native_model_ref":null,"selected_effort":"","source":"cli-default"}},"id":"a","position":{"x":0,"y":0},"type":"analyzer"},{"data":{"cli":"codex","prompt":"fail-once","resolved_model":{"agent_id":"codex","alias":"CLI 默认模型","cli":"codex","cli_id":"codex","credential_api_format":null,"credential_endpoint":"","credential_env_name":null,"credential_id":null,"credential_models":[],"credential_name":null,"credential_provider":null,"default_effort":null,"discovery_source":"CLI default","efforts":[],"executable":"/opt/homebrew/lib/node_modules/@openai/codex/bin/codex.js","model":"","model_id":null,"model_ref":null,"native_model_ref":null,"selected_effort":"","source":"cli-default"}},"id":"b","position":{"x":0,"y":0},"type":"analyzer"},{"data":{"allowed_file_extensions":[],"export_formats":[]},"id":"o","position":{"x":0,"y":0},"type":"container"}],"settings":{},"version":"kxy.workflow.v1"},"workflow_id":null}}
+
+----------------------------------------------------------------------
+Ran 15 tests in 1.382s
+
+FAILED (failures=2)

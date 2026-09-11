@@ -1,0 +1,27 @@
+{
+  "passed": [
+    "explicit marquee selects two cards, creates blackbox, undo restores graph",
+    "initial pointer highlights align to real SVG grid",
+    "initial selected-card highlights align to real SVG grid",
+    "zoomed pointer highlights align to real SVG grid",
+    "zoomed selected-card highlights align to real SVG grid",
+    "panned pointer highlights align to real SVG grid",
+    "panned selected-card highlights align to real SVG grid",
+    "selected-card expansion stops after its pulse without deselecting",
+    "motion clears after selection pulse and pointer trail become idle",
+    "quick-start templates do not cover selection tools",
+    "legacy expect_json is displayed as JSON mode",
+    "JSON schema imports, applies, and exports without losing keywords/token_count",
+    "switching JSON to text removes active schema and preserves selected format",
+    "real LFX run presents the final body instead of paths",
+    "invalid JSON remains a draft instead of downloading a broken JSON file",
+    "output JSON copy edit/import/download preserves original run artifacts",
+    "API form tests entered key against local mock without Keychain persistence",
+    "new JSON schema editor respects saved global code font size",
+    "reduced motion disables grid animations",
+    "1280x720 canvas remains accessible",
+    "390px narrow screen has no document horizontal overflow",
+    "no browser runtime errors"
+  ],
+  "errors": []
+}

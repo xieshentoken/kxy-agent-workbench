@@ -1,0 +1,13 @@
+{
+  "temporary_ports_closed": {
+    "8720": true,
+    "8721": true,
+    "8722": true,
+    "8723": true,
+    "8724": true
+  },
+  "formal_port": 8710,
+  "formal_pid": 33369,
+  "test_keychain_items_created": 0,
+  "real_provider_inference": false
+}

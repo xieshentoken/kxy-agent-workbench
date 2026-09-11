@@ -1,0 +1,9 @@
+{
+  "backend/app.py": "230e2a315e35b454a10d02b5956a1ab4374b1ef8d25a7b8b228d40385248c6bb",
+  "frontend/src/App.tsx": "d094feb2bfa1e17b3f5e62817a3531f8d90a83efc036978d793dac9298f82394",
+  "frontend/src/v2.tsx": "beeb874d4e755d4319f3ab291eba4dac3fc51e96185d595a8ca38e916eae7353",
+  "frontend/src/v3.tsx": "42dae6c725d856390da6c6983feab9000677c7754baff638d6497bdce0cc424c",
+  "frontend/src/styles.css": "f7c6debb57e07079066d97106d0d8fcc50a6e3f183e4650be901585fadfb9ffe",
+  "README.md": "066e80ea7dacbfa38157929707c5acf4a217ec0a031f5cd42c8a0f76d808149b",
+  "docs/V8_PLAN.md": "16c833edb567d8f84e09c04f91532757923a41edfeee42f41ebc5795bde60ef4"
+}

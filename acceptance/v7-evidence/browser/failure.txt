@@ -1,0 +1,118 @@
+AssertionError [ERR_ASSERTION]: {"lowSelectionMax":0.30720114815858424,"highSelectionMax":0.4153487335772399}
+kxy
+研究画布
+打开流程
+组件库
+保存
+撤回
+导出
+导入
+设置
+运行流程
+检查器
+BUILDING BLOCKS
+组件库
+
+把研究过程拆成一条能回看的资料链。
+
+导入资料
+导入资料文件夹
+资料节点
+PDF · CSV · 图片
+文字输入
+问题 · 说明 · 上下文
+CLI 分析器
+Agent · 模型 · Skill
+条件分支
+字段 · 比较 · 路由
+人工确认
+审批 · 备注 · 继续
+黑盒子
+可进入编辑的子流程
+授权输出
+文件 · JSON · 溯源
+技能挂载
+导入
+尚未挂载本地技能。导入只做快照，不执行其中代码。
+分析器预设
+V7 Created E
+展开配置
+应用
+V7 Created D
+展开配置
+应用
+V7 Created C
+展开配置
+应用
+V7 Existing B
+展开配置
+应用
+V7 Existing A
+展开配置
+应用
+快速开始
+资料提取
+扩展研究
+交叉核验
+RESEARCH WORKSPACE
+未命名研究流程
+移动
+框选
+封装
+本地模式
+输入
+研究问题
+从这里开始：拖入一份资料，或写下研究问题。
+分析器
+事实提取
+codex · auto
+输出
+研究输出
+回复 仅界面 · 文件 不接收
+移动模式 · 空格/中键平移 · 切换框选后拖拽选择
+INSPECTOR
+节点设置
+CLI 分析器
+analyzer
+节点名称
+分析提示词
+会直接传给选择的 Agent；凭据只在全局设置中配置
+WORKSPACE ACCESS
+输入与技能说明
+插入工作区提示
+只把可见文本写入上方提示词，运行时不会隐式追加；可继续修改或删除。
+Agent / CLI
+Codex
+Claude Code
+OpenCode
+pi
+Hermes
+WorkBuddy
+DeepSeek Harness · 不可用
+effort
+Agent 默认
+模型记录
+使用 Agent 默认模型
+只选择已保存的模型配置；配置删除后会保留明确的未绑定状态
+超时（秒）
+允许网络
+允许连接模型和公开网站
+输出格式
+自动（按提示词）
+Markdown
+纯文本
+JSON 对象
+自动保留 Agent 原文；JSON 只做本地对象/Schema 验证，提示词需由你明确要求 JSON
+自动保留模式
+不添加格式指令、不生成 answer.*；真实 JSON 对象仍可供条件节点读取 structured.*。
+Agent 状态
+Codex 可用
+凭据、API endpoint 和本地可执行文件请前往全局设置。
+挂载技能（跨 Agent 先预览）
+尚未导入技能。
+挂载 MCP（默认不启用）
+全局设置中没有已导入 MCP；不会自动扫描或启动服务。
+保存为分析器预设
+EXECUTION
+尚未执行
+运行会在这里留下节点状态、CLI 日志和最终产物。

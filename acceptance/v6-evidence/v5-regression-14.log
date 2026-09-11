@@ -1,0 +1,19 @@
+test_01_selected_model_effort_persists_and_resolves (acceptance.v5_supervisor_checks.V5Checks.test_01_selected_model_effort_persists_and_resolves) ... ok
+test_02_two_configs_for_same_model_keep_distinct_identity (acceptance.v5_supervisor_checks.V5Checks.test_02_two_configs_for_same_model_keep_distinct_identity) ... ok
+test_03_invalid_effort_cannot_be_added_by_client (acceptance.v5_supervisor_checks.V5Checks.test_03_invalid_effort_cannot_be_added_by_client) ... ok
+test_04_cross_agent_catalog_ref_rejected (acceptance.v5_supervisor_checks.V5Checks.test_04_cross_agent_catalog_ref_rejected) ... ok
+test_05_mismatched_or_missing_model_ref_rejected (acceptance.v5_supervisor_checks.V5Checks.test_05_mismatched_or_missing_model_ref_rejected) ... ok
+test_06_login_record_cannot_bind_api_credential (acceptance.v5_supervisor_checks.V5Checks.test_06_login_record_cannot_bind_api_credential) ... ok
+test_07_unknown_effort_stays_unknown (acceptance.v5_supervisor_checks.V5Checks.test_07_unknown_effort_stays_unknown) ... ok
+test_08_discovery_refresh_preserves_created_config (acceptance.v5_supervisor_checks.V5Checks.test_08_discovery_refresh_preserves_created_config) ... ok
+test_09_node_effort_override_is_local_and_validated (acceptance.v5_supervisor_checks.V5Checks.test_09_node_effort_override_is_local_and_validated) ... ok
+test_10_deleted_or_foreign_binding_never_falls_back (acceptance.v5_supervisor_checks.V5Checks.test_10_deleted_or_foreign_binding_never_falls_back) ... ok
+test_11_api_and_legacy_credentials_remain_compatible (acceptance.v5_supervisor_checks.V5Checks.test_11_api_and_legacy_credentials_remain_compatible) ... ok
+test_12_workflow_save_reload_keeps_exact_binding (acceptance.v5_supervisor_checks.V5Checks.test_12_workflow_save_reload_keeps_exact_binding) ... ok
+test_13_edit_config_preserves_binding_and_validates_effort (acceptance.v5_supervisor_checks.V5Checks.test_13_edit_config_preserves_binding_and_validates_effort) ... ok
+test_14_update_cannot_attach_credentials_to_login_entry (acceptance.v5_supervisor_checks.V5Checks.test_14_update_cannot_attach_credentials_to_login_entry) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.139s
+
+OK

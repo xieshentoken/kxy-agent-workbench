@@ -1,0 +1,13 @@
+
+> kxy-canvas@0.1.0 build
+> tsc -b && vite build --outDir dist-v8-verified
+
+vite v6.4.3 building for production...
+transforming...
+✓ 1743 modules transformed.
+rendering chunks...
+computing gzip size...
+dist-v8-verified/index.html                   0.76 kB │ gzip:   0.50 kB
+dist-v8-verified/assets/index-DqB1qhC1.css   64.04 kB │ gzip:  12.99 kB
+dist-v8-verified/assets/index-CErv4U33.js   491.50 kB │ gzip: 153.96 kB
+✓ built in 1.22s

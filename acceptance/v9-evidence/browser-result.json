@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "run_id": "f1f9a3cae13e4c629923470f4a0e95f6",
+  "checks": [
+    "create/configure loop",
+    "preset remaps role IDs",
+    "limit pause and manual continue",
+    "round two accepted",
+    "round selection and diff"
+  ],
+  "console_errors": []
+}

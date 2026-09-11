@@ -1,0 +1,160 @@
+{
+  "codex": {
+    "available": true,
+    "status": "READY",
+    "version": "codex-cli 0.144.3",
+    "models": [
+      {
+        "model": "gpt-5.3-codex-spark",
+        "efforts": [
+          "low",
+          "medium",
+          "high",
+          "xhigh"
+        ],
+        "default_effort": "high",
+        "source": "codex models_cache.json"
+      },
+      {
+        "model": "gpt-5.4-mini",
+        "efforts": [
+          "low",
+          "medium",
+          "high",
+          "xhigh"
+        ],
+        "default_effort": "medium",
+        "source": "codex models_cache.json"
+      },
+      {
+        "model": "gpt-5.5",
+        "efforts": [
+          "low",
+          "medium",
+          "high",
+          "xhigh"
+        ],
+        "default_effort": "medium",
+        "source": "codex models_cache.json"
+      },
+      {
+        "model": "gpt-5.6-luna",
+        "efforts": [
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max"
+        ],
+        "default_effort": "medium",
+        "source": "codex models_cache.json"
+      },
+      {
+        "model": "gpt-5.6-sol",
+        "efforts": [
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max",
+          "ultra"
+        ],
+        "default_effort": "low",
+        "source": "codex models_cache.json"
+      },
+      {
+        "model": "gpt-5.6-terra",
+        "efforts": [
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max",
+          "ultra"
+        ],
+        "default_effort": "medium",
+        "source": "codex models_cache.json"
+      },
+      {
+        "model": "gpt-6-astra",
+        "efforts": [
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max",
+          "ultra"
+        ],
+        "default_effort": "medium",
+        "source": "codex models_cache.json"
+      }
+    ]
+  },
+  "claude": {
+    "available": true,
+    "status": "READY",
+    "version": "2.1.233 (Claude Code)",
+    "models": [
+      {
+        "model": "claude-fable-5",
+        "efforts": [
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max"
+        ],
+        "default_effort": null,
+        "source": "claude --help (documented model alias)"
+      },
+      {
+        "model": "deepseek-v4-flash",
+        "efforts": [
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max"
+        ],
+        "default_effort": null,
+        "source": "claude ~/.claude/settings.json (allowlisted model env)"
+      },
+      {
+        "model": "fable",
+        "efforts": [
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max"
+        ],
+        "default_effort": null,
+        "source": "claude --help (documented model alias)"
+      },
+      {
+        "model": "opus",
+        "efforts": [
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max"
+        ],
+        "default_effort": null,
+        "source": "claude --help (documented model alias)"
+      },
+      {
+        "model": "sonnet",
+        "efforts": [
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max"
+        ],
+        "default_effort": null,
+        "source": "claude --help (documented model alias)"
+      }
+    ]
+  }
+}

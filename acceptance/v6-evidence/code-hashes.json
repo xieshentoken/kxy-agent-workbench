@@ -1,0 +1,15 @@
+{
+  "backend/app.py": "0da5dac7703a4d3317b8a2828b303c48022aedeebd92c9ec4d9bcfe4d08ce29a",
+  "backend/agent_config.py": "95bf3f74f580ec89d73deadd4609bf413ec5e280e2193051bd2d44884b505caf",
+  "frontend/src/App.tsx": "1f87782f92295ea2b88013ad4e88619ca5acd38aae5eef8b591f1d61f029f9eb",
+  "frontend/src/v2.tsx": "e38006faa039d44502f70554c54412c9df42eef4bb64bd1c762c7d10e1a4337e",
+  "frontend/src/styles.css": "c96f8d18a1c16cdcf3f33dd611197a80f6b292566d42e8c09af099c9e46a89d5",
+  "README.md": "e02b060d3be8f06625f5d97a591df3cb9ae9ff9dd3a4234cd0643f1f1123f9f4",
+  "acceptance/v6_supervisor_checks.py": "fe9c70495a15456df96f3ae79b443c0bf6a5e9123650ab9a42493620238c1455",
+  "acceptance/v6_independent_browser.cjs": "54a520d71d3e88e4722738f994100e27e920ef75ba2fe3a0b00912b32ed1c025",
+  "acceptance/v6_browser_refresh_race.cjs": "c30ba7855525e5d7acd6afbedffb94b2d7301005dc4e141d93e42e4225ae0112",
+  "acceptance/v6_fixture_server.py": "c466c27a5878ff9373c579e417a0939a6196c049388d683c2edb4b917924d091",
+  "frontend/dist-v6/index.html": "93db4d6be57f4da17eef9f08e4661c8b8e085c22dff89b5b50bc80e7f3f03e6a",
+  "frontend/dist-v6/assets/index-C8I0_86b.js": "168f453b9e13ab39d88e9be63e0cb9ca406f41dee482aaae79ea39b9b592845d",
+  "frontend/dist-v6/assets/index-buIbN1wx.css": "6d8cdf3b5f41f54c0e2d6620b6b1244c2e0b843d796c4a41b4b0025cd9dd1f23"
+}

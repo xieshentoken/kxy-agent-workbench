@@ -1,0 +1,17 @@
+test_01_default_types_and_legacy_settings (__main__.V3Supervisor.test_01_default_types_and_legacy_settings) ... ok
+test_02_fonts_are_detected_and_unicode_roundtrips (__main__.V3Supervisor.test_02_fonts_are_detected_and_unicode_roundtrips) ... ok
+test_03_invalid_style_is_atomic (__main__.V3Supervisor.test_03_invalid_style_is_atomic) ... ok
+test_04_raster_background_and_saved_reference (__main__.V3Supervisor.test_04_raster_background_and_saved_reference) ... ok
+test_05_background_rejects_active_or_corrupt_files (__main__.V3Supervisor.test_05_background_rejects_active_or_corrupt_files) ... ok
+test_06_cross_agent_uses_upstream_and_all_reference_content (__main__.V3Supervisor.test_06_cross_agent_uses_upstream_and_all_reference_content) ... ok
+test_07_skill_scan_has_real_dates_and_missing_mount_fails (__main__.V3Supervisor.test_07_skill_scan_has_real_dates_and_missing_mount_fails) ... ok
+test_08_cross_origin_mutations_stay_blocked (__main__.V3Supervisor.test_08_cross_origin_mutations_stay_blocked) ... ok
+test_09_mcp_command_path_with_spaces_remains_one_executable (__main__.V3Supervisor.test_09_mcp_command_path_with_spaces_remains_one_executable) ... ok
+test_10_native_mcp_metadata_and_import_do_not_store_secret_literals (__main__.V3Supervisor.test_10_native_mcp_metadata_and_import_do_not_store_secret_literals) ... ok
+test_11_workbuddy_copy_projection_is_idempotent (__main__.V3Supervisor.test_11_workbuddy_copy_projection_is_idempotent) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 1.493s
+
+OK
+Independent V3 data: /var/folders/p4/xpgbyw151b1c6gj3g__0dv_w0000gp/T/kxy-v3-supervisor-dmkcnszl

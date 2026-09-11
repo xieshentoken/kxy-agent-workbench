@@ -1,0 +1,15 @@
+test_all_profiles_are_seeded_without_synchronous_probe (__main__.ConfigV2.test_all_profiles_are_seeded_without_synchronous_probe) ... ok
+test_deepseek_without_headless_profile_is_explicitly_unavailable (__main__.ConfigV2.test_deepseek_without_headless_profile_is_explicitly_unavailable) ... ok
+test_discovery_uses_only_version_help_and_catalog_commands (__main__.ConfigV2.test_discovery_uses_only_version_help_and_catalog_commands) ... ok
+test_documented_native_model_and_effort_parsers (__main__.ConfigV2.test_documented_native_model_and_effort_parsers) ... ok
+test_headless_argv_env_and_parser_have_no_bypass_or_secret (__main__.ConfigV2.test_headless_argv_env_and_parser_have_no_bypass_or_secret) ... ok
+test_hermes_reader_whitelists_model_fields_only (__main__.ConfigV2.test_hermes_reader_whitelists_model_fields_only) ... ok
+test_model_identity_and_cli_id_payload_contract (__main__.ConfigV2.test_model_identity_and_cli_id_payload_contract) ... ok
+test_native_auth_references_are_local_and_explicit_binding_wins (__main__.ConfigV2.test_native_auth_references_are_local_and_explicit_binding_wins) ... ok
+test_picker_cancel_and_argv_are_bounded (__main__.ConfigV2.test_picker_cancel_and_argv_are_bounded) ... ok
+test_skill_scan_import_and_safe_symlink_boundary (__main__.ConfigV2.test_skill_scan_import_and_safe_symlink_boundary) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.058s
+
+OK

@@ -1,0 +1,13 @@
+{
+  "base": "http://127.0.0.1:8712",
+  "passed": [
+    "three independent additions restore successive actual graph states",
+    "saved history depth truncates to two and stops at oldest retained edit",
+    "one drag gesture restores original coordinates in one undo",
+    "keyboard deletion restores the node and incident edge together",
+    "blackbox navigation adds no history and inner edits undo consistently after returning",
+    "separate text/code fonts and sizes save as default and reload",
+    "actual Canvas drawing follows pointer and surrounds selected cards; reduced motion stops it"
+  ],
+  "errors": []
+}

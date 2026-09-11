@@ -1,0 +1,19 @@
+{
+  "backup": "/Users/<localuser>/Documents/Codex/DeeSear workflow/kxy/.backups/before-v3-rollout-20260907-005918",
+  "counts": {
+    "files": 1,
+    "skills": 2,
+    "workflows": 0,
+    "runs": 3,
+    "credentials": 1,
+    "agent_models": 70
+  },
+  "settings": {
+    "palette": "mist",
+    "accent": "#ff6714",
+    "canvas": "#c0d9f2",
+    "font": "serif",
+    "custom_font": "SF Pro Display"
+  },
+  "running": []
+}

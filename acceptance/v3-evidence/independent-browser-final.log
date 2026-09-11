@@ -1,0 +1,7 @@
+PASS three independent additions restore successive actual graph states
+PASS saved history depth truncates to two and stops at oldest retained edit
+PASS one drag gesture restores original coordinates in one undo
+PASS keyboard deletion restores the node and incident edge together
+PASS blackbox navigation adds no history and inner edits undo consistently after returning
+PASS separate text/code fonts and sizes save as default and reload
+PASS actual Canvas drawing follows pointer and surrounds selected cards; reduced motion stops it

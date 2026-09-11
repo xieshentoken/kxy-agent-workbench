@@ -1,0 +1,15 @@
+{
+  "codex": {
+    "exit": 0,
+    "stdout": "[\n  {\n    \"name\": \"kxy_fixture\",\n    \"enabled\": true,\n    \"disabled_reason\": null,\n    \"transport\": {\n      \"type\": \"stdio\",\n      \"command\": \"/Users/<localuser>/Documents/Codex/DeeSear workflow/kxy/.venv/bin/python\",\n      \"args\": [\n        \"/private/tmp/kxy-v3-mcp-fixture/server.py\"\n      ],\n      \"env\": null,\n      \"env_vars\": [],\n      \"cwd\": null\n    },\n    \"startup_timeout_sec\": null,\n    \"tool_timeout_sec\": null,\n    \"auth_status\": \"unsupported\"\n  }\n]\n",
+    "stderr": "",
+    "generated_path": "/private/var/folders/p4/xpgbyw151b1c6gj3g__0dv_w0000gp/T/kxy-v3-generated-mcp-kl46satw/data/generated/codex/mcp/codex.toml"
+  },
+  "opencode": {
+    "exit": 0,
+    "stdout": "\u250c  MCP Servers\n\u2502\n\u25cf  \u2713 kxy_fixture \u001b[90mconnected\n\u2502      \u001b[90m/Users/<localuser>/Documents/Codex/DeeSear workflow/kxy/.venv/bin/python /private/tmp/kxy-v3-mcp-fixture/server.py\n\u2502\n\u2514  1 server(s)\n\n",
+    "stderr": "\u001b[0m\n",
+    "generated_path": "/private/var/folders/p4/xpgbyw151b1c6gj3g__0dv_w0000gp/T/kxy-v3-generated-mcp-kl46satw/data/generated/opencode/mcp/opencode.json"
+  }
+}
+Evidence /var/folders/p4/xpgbyw151b1c6gj3g__0dv_w0000gp/T/kxy-v3-generated-mcp-kl46satw

@@ -1,0 +1,754 @@
+[
+  {
+    "id": "codex",
+    "status": "READY",
+    "version": "codex-cli 0.144.3",
+    "message": null,
+    "capabilities": {
+      "headless": true,
+      "model_discovery": true,
+      "verified": true,
+      "version_probe": true
+    },
+    "supported_efforts": [
+      "low",
+      "medium",
+      "high",
+      "xhigh",
+      "max",
+      "ultra"
+    ],
+    "models": [
+      {
+        "model": "gpt-5.3-codex-spark",
+        "alias": "GPT-5.3-Codex-Spark",
+        "efforts": [
+          "low",
+          "medium",
+          "high",
+          "xhigh"
+        ],
+        "default_effort": "high",
+        "discovery_source": "codex models_cache.json"
+      },
+      {
+        "model": "gpt-5.4-mini",
+        "alias": "GPT-5.4-Mini",
+        "efforts": [
+          "low",
+          "medium",
+          "high",
+          "xhigh"
+        ],
+        "default_effort": "medium",
+        "discovery_source": "codex models_cache.json"
+      },
+      {
+        "model": "gpt-5.5",
+        "alias": "GPT-5.5",
+        "efforts": [
+          "low",
+          "medium",
+          "high",
+          "xhigh"
+        ],
+        "default_effort": "medium",
+        "discovery_source": "codex models_cache.json"
+      },
+      {
+        "model": "gpt-5.6-luna",
+        "alias": "GPT-5.6-Luna",
+        "efforts": [
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max"
+        ],
+        "default_effort": "medium",
+        "discovery_source": "codex models_cache.json"
+      },
+      {
+        "model": "gpt-5.6-sol",
+        "alias": "GPT-5.6-Sol",
+        "efforts": [
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max",
+          "ultra"
+        ],
+        "default_effort": "low",
+        "discovery_source": "codex models_cache.json"
+      },
+      {
+        "model": "gpt-5.6-terra",
+        "alias": "GPT-5.6-Terra",
+        "efforts": [
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max",
+          "ultra"
+        ],
+        "default_effort": "medium",
+        "discovery_source": "codex models_cache.json"
+      },
+      {
+        "model": "gpt-6-astra",
+        "alias": "GPT-6-Astra",
+        "efforts": [
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max",
+          "ultra"
+        ],
+        "default_effort": "medium",
+        "discovery_source": "codex models_cache.json"
+      }
+    ]
+  },
+  {
+    "id": "claude",
+    "status": "READY",
+    "version": "2.1.233 (Claude Code)",
+    "message": null,
+    "capabilities": {
+      "headless": true,
+      "model_discovery": true,
+      "verified": true,
+      "version_probe": true
+    },
+    "supported_efforts": [
+      "low",
+      "medium",
+      "high",
+      "xhigh",
+      "max"
+    ],
+    "models": [
+      {
+        "model": "claude-fable-5",
+        "alias": "claude-fable-5",
+        "efforts": [
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max"
+        ],
+        "default_effort": null,
+        "discovery_source": "claude --help (documented model alias)"
+      },
+      {
+        "model": "deepseek-v4-flash",
+        "alias": "deepseek-v4-flash",
+        "efforts": [
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max"
+        ],
+        "default_effort": null,
+        "discovery_source": "claude ~/.claude/settings.json (allowlisted model env)"
+      },
+      {
+        "model": "fable",
+        "alias": "fable",
+        "efforts": [
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max"
+        ],
+        "default_effort": null,
+        "discovery_source": "claude --help (documented model alias)"
+      },
+      {
+        "model": "opus",
+        "alias": "opus",
+        "efforts": [
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max"
+        ],
+        "default_effort": null,
+        "discovery_source": "claude --help (documented model alias)"
+      },
+      {
+        "model": "sonnet",
+        "alias": "sonnet",
+        "efforts": [
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max"
+        ],
+        "default_effort": null,
+        "discovery_source": "claude --help (documented model alias)"
+      }
+    ]
+  },
+  {
+    "id": "opencode",
+    "status": "READY",
+    "version": "1.18.18",
+    "message": null,
+    "capabilities": {
+      "headless": true,
+      "model_discovery": true,
+      "verified": true,
+      "version_probe": true
+    },
+    "supported_efforts": [
+      "high",
+      "max",
+      "minimal"
+    ],
+    "models": [
+      {
+        "model": "opencode/big-pickle",
+        "alias": "opencode/big-pickle",
+        "efforts": [],
+        "default_effort": null,
+        "discovery_source": "opencode models"
+      },
+      {
+        "model": "opencode/deepseek-v4-flash-free",
+        "alias": "opencode/deepseek-v4-flash-free",
+        "efforts": [],
+        "default_effort": null,
+        "discovery_source": "opencode models"
+      },
+      {
+        "model": "opencode/hy3-free",
+        "alias": "opencode/hy3-free",
+        "efforts": [],
+        "default_effort": null,
+        "discovery_source": "opencode models"
+      },
+      {
+        "model": "opencode/laguna-s-2.1-free",
+        "alias": "opencode/laguna-s-2.1-free",
+        "efforts": [],
+        "default_effort": null,
+        "discovery_source": "opencode models"
+      },
+      {
+        "model": "opencode/ling-3.0-tiny-free",
+        "alias": "opencode/ling-3.0-tiny-free",
+        "efforts": [],
+        "default_effort": null,
+        "discovery_source": "opencode models"
+      },
+      {
+        "model": "opencode/mimo-v2.5-free",
+        "alias": "opencode/mimo-v2.5-free",
+        "efforts": [],
+        "default_effort": null,
+        "discovery_source": "opencode models"
+      },
+      {
+        "model": "opencode/nemotron-3-ultra-free",
+        "alias": "opencode/nemotron-3-ultra-free",
+        "efforts": [],
+        "default_effort": null,
+        "discovery_source": "opencode models"
+      },
+      {
+        "model": "opencode/nemotron-3.5-lightning-free",
+        "alias": "opencode/nemotron-3.5-lightning-free",
+        "efforts": [],
+        "default_effort": null,
+        "discovery_source": "opencode models"
+      }
+    ]
+  },
+  {
+    "id": "pi",
+    "status": "READY",
+    "version": "0.85.1",
+    "message": null,
+    "capabilities": {
+      "headless": true,
+      "model_discovery": false,
+      "verified": true,
+      "version_probe": true
+    },
+    "supported_efforts": [
+      "off",
+      "minimal",
+      "low",
+      "medium",
+      "high",
+      "xhigh",
+      "max"
+    ],
+    "models": []
+  },
+  {
+    "id": "hermes",
+    "status": "READY",
+    "version": "Hermes Agent v0.19.1 (2026.7.30) · upstream 470cf66b · local 98105f31 (+1 carried commit)",
+    "message": null,
+    "capabilities": {
+      "headless": true,
+      "model_discovery": true,
+      "verified": true,
+      "version_probe": true
+    },
+    "supported_efforts": [],
+    "models": [
+      {
+        "model": "anthropic/claude-fable-5",
+        "alias": "anthropic/claude-fable-5",
+        "efforts": [],
+        "default_effort": null,
+        "discovery_source": "hermes cache/model_catalog.json (openrouter) | hermes cache/model_catalog.json (nous)"
+      },
+      {
+        "model": "anthropic/claude-haiku-4.5",
+        "alias": "anthropic/claude-haiku-4.5",
+        "efforts": [],
+        "default_effort": null,
+        "discovery_source": "hermes cache/model_catalog.json (openrouter) | hermes cache/model_catalog.json (nous)"
+      },
+      {
+        "model": "anthropic/claude-opus-4.8",
+        "alias": "anthropic/claude-opus-4.8",
+        "efforts": [],
+        "default_effort": null,
+        "discovery_source": "hermes cache/model_catalog.json (openrouter) | hermes cache/model_catalog.json (nous)"
+      },
+      {
+        "model": "anthropic/claude-opus-4.8-fast",
+        "alias": "anthropic/claude-opus-4.8-fast",
+        "efforts": [],
+        "default_effort": null,
+        "discovery_source": "hermes cache/model_catalog.json (openrouter)"
+      },
+      {
+        "model": "anthropic/claude-opus-5",
+        "alias": "anthropic/claude-opus-5",
+        "efforts": [],
+        "default_effort": null,
+        "discovery_source": "hermes cache/model_catalog.json (openrouter) | hermes cache/model_catalog.json (nous)"
+      },
+      {
+        "model": "anthropic/claude-opus-5-fast",
+        "alias": "anthropic/claude-opus-5-fast",
+        "efforts": [],
+        "default_effort": null,
+        "discovery_source": "hermes cache/model_catalog.json (openrouter)"
+      },
+      {
+        "model": "anthropic/claude-sonnet-5",
+        "alias": "anthropic/claude-sonnet-5",
+        "efforts": [],
+        "default_effort": null,
+        "discovery_source": "hermes cache/model_catalog.json (openrouter) | hermes cache/model_catalog.json (nous)"
+      },
+      {
+        "model": "deepseek-v4-flash",
+        "alias": "deepseek-v4-flash",
+        "efforts": [],
+        "default_effort": null,
+        "discovery_source": "hermes config.yaml (selected model) provider=deepseek"
+      },
+      {
+        "model": "deepseek/deepseek-v4-flash",
+        "alias": "deepseek/deepseek-v4-flash",
+        "efforts": [],
+        "default_effort": null,
+        "discovery_source": "hermes cache/model_catalog.json (openrouter) | hermes cache/model_catalog.json (nous)"
+      },
+      {
+        "model": "deepseek/deepseek-v4-flash-0731",
+        "alias": "deepseek/deepseek-v4-flash-0731",
+        "efforts": [],
+        "default_effort": null,
+        "discovery_source": "hermes cache/model_catalog.json (openrouter) | hermes cache/model_catalog.json (nous)"
+      },
+      {
+        "model": "deepseek/deepseek-v4-pro",
+        "alias": "deepseek/deepseek-v4-pro",
+        "efforts": [],
+        "default_effort": null,
+        "discovery_source": "hermes cache/model_catalog.json (openrouter) | hermes cache/model_catalog.json (nous)"
+      },
+      {
+        "model": "google/gemini-3.1-pro-preview",
+        "alias": "google/gemini-3.1-pro-preview",
+        "efforts": [],
+        "default_effort": null,
+        "discovery_source": "hermes cache/model_catalog.json (openrouter) | hermes cache/model_catalog.json (nous)"
+      },
+      {
+        "model": "google/gemini-3.6-flash",
+        "alias": "google/gemini-3.6-flash",
+        "efforts": [],
+        "default_effort": null,
+        "discovery_source": "hermes cache/model_catalog.json (openrouter) | hermes cache/model_catalog.json (nous)"
+      },
+      {
+        "model": "inclusionai/ring-2.6-1t:free",
+        "alias": "inclusionai/ring-2.6-1t:free",
+        "efforts": [],
+        "default_effort": null,
+        "discovery_source": "hermes cache/model_catalog.json (openrouter)"
+      },
+      {
+        "model": "minimax/minimax-m3",
+        "alias": "minimax/minimax-m3",
+        "efforts": [],
+        "default_effort": null,
+        "discovery_source": "hermes cache/model_catalog.json (openrouter) | hermes cache/model_catalog.json (nous)"
+      },
+      {
+        "model": "moonshotai/kimi-k3",
+        "alias": "moonshotai/kimi-k3",
+        "efforts": [],
+        "default_effort": null,
+        "discovery_source": "hermes cache/model_catalog.json (openrouter) | hermes cache/model_catalog.json (nous)"
+      },
+      {
+        "model": "nvidia/nemotron-3-super-120b-a12b",
+        "alias": "nvidia/nemotron-3-super-120b-a12b",
+        "efforts": [],
+        "default_effort": null,
+        "discovery_source": "hermes cache/model_catalog.json (openrouter) | hermes cache/model_catalog.json (nous)"
+      },
+      {
+        "model": "nvidia/nemotron-3-super-120b-a12b:free",
+        "alias": "nvidia/nemotron-3-super-120b-a12b:free",
+        "efforts": [],
+        "default_effort": null,
+        "discovery_source": "hermes cache/model_catalog.json (openrouter)"
+      },
+      {
+        "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+        "alias": "nvidia/nemotron-3-ultra-550b-a55b:free",
+        "efforts": [],
+        "default_effort": null,
+        "discovery_source": "hermes cache/model_catalog.json (openrouter)"
+      },
+      {
+        "model": "openai/gpt-5.4-mini",
+        "alias": "openai/gpt-5.4-mini",
+        "efforts": [],
+        "default_effort": null,
+        "discovery_source": "hermes cache/model_catalog.json (openrouter) | hermes cache/model_catalog.json (nous)"
+      },
+      {
+        "model": "openai/gpt-5.5",
+        "alias": "openai/gpt-5.5",
+        "efforts": [],
+        "default_effort": null,
+        "discovery_source": "hermes cache/model_catalog.json (openrouter) | hermes cache/model_catalog.json (nous)"
+      },
+      {
+        "model": "openai/gpt-5.5-pro",
+        "alias": "openai/gpt-5.5-pro",
+        "efforts": [],
+        "default_effort": null,
+        "discovery_source": "hermes cache/model_catalog.json (openrouter) | hermes cache/model_catalog.json (nous)"
+      },
+      {
+        "model": "openai/gpt-5.6-luna",
+        "alias": "openai/gpt-5.6-luna",
+        "efforts": [],
+        "default_effort": null,
+        "discovery_source": "hermes cache/model_catalog.json (openrouter) | hermes cache/model_catalog.json (nous)"
+      },
+      {
+        "model": "openai/gpt-5.6-luna-pro",
+        "alias": "openai/gpt-5.6-luna-pro",
+        "efforts": [],
+        "default_effort": null,
+        "discovery_source": "hermes cache/model_catalog.json (openrouter) | hermes cache/model_catalog.json (nous)"
+      },
+      {
+        "model": "openai/gpt-5.6-sol",
+        "alias": "openai/gpt-5.6-sol",
+        "efforts": [],
+        "default_effort": null,
+        "discovery_source": "hermes cache/model_catalog.json (openrouter) | hermes cache/model_catalog.json (nous)"
+      },
+      {
+        "model": "openai/gpt-5.6-sol-pro",
+        "alias": "openai/gpt-5.6-sol-pro",
+        "efforts": [],
+        "default_effort": null,
+        "discovery_source": "hermes cache/model_catalog.json (openrouter) | hermes cache/model_catalog.json (nous)"
+      },
+      {
+        "model": "openai/gpt-5.6-terra",
+        "alias": "openai/gpt-5.6-terra",
+        "efforts": [],
+        "default_effort": null,
+        "discovery_source": "hermes cache/model_catalog.json (openrouter) | hermes cache/model_catalog.json (nous)"
+      },
+      {
+        "model": "openai/gpt-5.6-terra-pro",
+        "alias": "openai/gpt-5.6-terra-pro",
+        "efforts": [],
+        "default_effort": null,
+        "discovery_source": "hermes cache/model_catalog.json (openrouter) | hermes cache/model_catalog.json (nous)"
+      },
+      {
+        "model": "openrouter/elephant-alpha",
+        "alias": "openrouter/elephant-alpha",
+        "efforts": [],
+        "default_effort": null,
+        "discovery_source": "hermes cache/model_catalog.json (openrouter)"
+      },
+      {
+        "model": "openrouter/pareto-code",
+        "alias": "openrouter/pareto-code",
+        "efforts": [],
+        "default_effort": null,
+        "discovery_source": "hermes cache/model_catalog.json (openrouter)"
+      },
+      {
+        "model": "poolside/laguna-m.1:free",
+        "alias": "poolside/laguna-m.1:free",
+        "efforts": [],
+        "default_effort": null,
+        "discovery_source": "hermes cache/model_catalog.json (openrouter)"
+      },
+      {
+        "model": "qwen/qwen3.7-max",
+        "alias": "qwen/qwen3.7-max",
+        "efforts": [],
+        "default_effort": null,
+        "discovery_source": "hermes cache/model_catalog.json (openrouter) | hermes cache/model_catalog.json (nous)"
+      },
+      {
+        "model": "sakana/fugu-ultra",
+        "alias": "sakana/fugu-ultra",
+        "efforts": [],
+        "default_effort": null,
+        "discovery_source": "hermes cache/model_catalog.json (openrouter) | hermes cache/model_catalog.json (nous)"
+      },
+      {
+        "model": "stepfun/step-3.7-flash",
+        "alias": "stepfun/step-3.7-flash",
+        "efforts": [],
+        "default_effort": null,
+        "discovery_source": "hermes cache/model_catalog.json (openrouter) | hermes cache/model_catalog.json (nous)"
+      },
+      {
+        "model": "tencent/hy3",
+        "alias": "tencent/hy3",
+        "efforts": [],
+        "default_effort": null,
+        "discovery_source": "hermes cache/model_catalog.json (openrouter) | hermes cache/model_catalog.json (nous)"
+      },
+      {
+        "model": "tencent/hy3:free",
+        "alias": "tencent/hy3:free",
+        "efforts": [],
+        "default_effort": null,
+        "discovery_source": "hermes cache/model_catalog.json (openrouter)"
+      },
+      {
+        "model": "x-ai/grok-4.5",
+        "alias": "x-ai/grok-4.5",
+        "efforts": [],
+        "default_effort": null,
+        "discovery_source": "hermes cache/model_catalog.json (openrouter) | hermes cache/model_catalog.json (nous)"
+      },
+      {
+        "model": "xiaomi/mimo-v2.5-pro",
+        "alias": "xiaomi/mimo-v2.5-pro",
+        "efforts": [],
+        "default_effort": null,
+        "discovery_source": "hermes cache/model_catalog.json (openrouter) | hermes cache/model_catalog.json (nous)"
+      },
+      {
+        "model": "z-ai/glm-5.1",
+        "alias": "z-ai/glm-5.1",
+        "efforts": [],
+        "default_effort": null,
+        "discovery_source": "hermes cache/model_catalog.json (openrouter) | hermes cache/model_catalog.json (nous)"
+      },
+      {
+        "model": "z-ai/glm-5.2",
+        "alias": "z-ai/glm-5.2",
+        "efforts": [],
+        "default_effort": null,
+        "discovery_source": "hermes cache/model_catalog.json (openrouter) | hermes cache/model_catalog.json (nous)"
+      }
+    ]
+  },
+  {
+    "id": "workbuddy",
+    "status": "READY",
+    "version": "2.137.1",
+    "message": null,
+    "capabilities": {
+      "headless": true,
+      "model_discovery": true,
+      "verified": true,
+      "version_probe": true
+    },
+    "supported_efforts": [
+      "minimal",
+      "low",
+      "medium",
+      "high",
+      "xhigh",
+      "max"
+    ],
+    "models": [
+      {
+        "model": "auto",
+        "alias": "auto",
+        "efforts": [
+          "minimal",
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max"
+        ],
+        "default_effort": null,
+        "discovery_source": "codebuddy --help (documented supported models)"
+      },
+      {
+        "model": "deepseek-v3-2-volc",
+        "alias": "deepseek-v3-2-volc",
+        "efforts": [
+          "minimal",
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max"
+        ],
+        "default_effort": null,
+        "discovery_source": "codebuddy --help (documented supported models)"
+      },
+      {
+        "model": "glm-4.7",
+        "alias": "glm-4.7",
+        "efforts": [
+          "minimal",
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max"
+        ],
+        "default_effort": null,
+        "discovery_source": "codebuddy --help (documented supported models)"
+      },
+      {
+        "model": "glm-5.0",
+        "alias": "glm-5.0",
+        "efforts": [
+          "minimal",
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max"
+        ],
+        "default_effort": null,
+        "discovery_source": "codebuddy --help (documented supported models)"
+      },
+      {
+        "model": "glm-5.0-turbo",
+        "alias": "glm-5.0-turbo",
+        "efforts": [
+          "minimal",
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max"
+        ],
+        "default_effort": null,
+        "discovery_source": "codebuddy --help (documented supported models)"
+      },
+      {
+        "model": "glm-5.1",
+        "alias": "glm-5.1",
+        "efforts": [
+          "minimal",
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max"
+        ],
+        "default_effort": null,
+        "discovery_source": "codebuddy --help (documented supported models)"
+      },
+      {
+        "model": "glm-5v-turbo",
+        "alias": "glm-5v-turbo",
+        "efforts": [
+          "minimal",
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max"
+        ],
+        "default_effort": null,
+        "discovery_source": "codebuddy --help (documented supported models)"
+      },
+      {
+        "model": "kimi-k2.5",
+        "alias": "kimi-k2.5",
+        "efforts": [
+          "minimal",
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max"
+        ],
+        "default_effort": null,
+        "discovery_source": "codebuddy --help (documented supported models)"
+      },
+      {
+        "model": "minimax-m2.7",
+        "alias": "minimax-m2.7",
+        "efforts": [
+          "minimal",
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max"
+        ],
+        "default_effort": null,
+        "discovery_source": "codebuddy --help (documented supported models)"
+      }
+    ]
+  },
+  {
+    "id": "deepseek",
+    "status": "UNAVAILABLE",
+    "version": null,
+    "message": "DSH headless profile 不存在：/Users/<localuser>/Documents/DSH/profiles/headless；web profile 不能替代 headless",
+    "capabilities": {
+      "headless": false,
+      "model_discovery": false,
+      "verified": false
+    },
+    "supported_efforts": [],
+    "models": []
+  }
+]

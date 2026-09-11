@@ -1,0 +1,20 @@
+{
+  "project": "xieshentoken/skillhub",
+  "commit": "8ae72075fdafb1d9dda5f3a232fd9fd438d6e485",
+  "license": "MIT",
+  "source": "https://github.com/xieshentoken/skillhub/tree/8ae72075fdafb1d9dda5f3a232fd9fd438d6e485",
+  "files": {
+    "LICENSE": "c0e20fa1079d17da42dea3216665c5668e59c9a9",
+    "skillhub/__init__.py": "858dba36a7836b420d264595863872bce28b4a23",
+    "skillhub/__main__.py": "f37a3535a28e9893a89fc06d2a7e3b240bc66f27",
+    "skillhub/adapters.py": "e495104ff45e1e5eba6d44ea492501c4dfee1cb7",
+    "skillhub/cli.py": "0446effd7fe7d99fb56b494dc2159eba2b95efd1",
+    "skillhub/config.py": "8af9fedb8f5bd4a2547ae0d29b3be1b0ead03bed",
+    "skillhub/mcp.py": "2907e6128e0515c16a529a14c674925068ac2fe8",
+    "skillhub/scan.py": "dad1e4ec4866ef9b3d52bc6d07c2a390b2004570",
+    "skillhub/store.py": "6ce585f3db69a01757738ac0739f3537b31f9dfc",
+    "skillhub/gui.html": "540750904befe982f00c1508286650e7c215d9e8",
+    "skillhub/webgui.py": "0da72319f29d5dbd22117347652432e2a9a96518"
+  },
+  "integration": "KXY calls the vendored CLI and diagnose/dependency APIs in bounded subprocesses with all SkillHub roots and destinations redirected below KXY_DATA_ROOT; KXY-specific full-snapshot, runtime and cache checks live in backend code."
+}

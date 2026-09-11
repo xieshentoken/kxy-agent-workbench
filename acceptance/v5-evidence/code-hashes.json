@@ -1,0 +1,18 @@
+{
+  "backend/app.py": "a9c602abfadd8922baf32f794cd9191110d37f007f72600dac9f39464e733a33",
+  "backend/agent_config.py": "d6d59cef6003a63d240beec76e38f4264c234b325931ba5953c924ea0ebc2fc4",
+  "frontend/src/App.tsx": "58da6e4a83df01c3fc55461782dcdd2bb2ef98338b4789c626aeabda714eb8e1",
+  "frontend/src/v2.tsx": "ef9a6d67f4aa407682b4168bbd28d2db2d3b6c2b06cadb2bf78c737789752804",
+  "frontend/src/styles.css": "771a1999edafa79f27541637217f9eeb157cd2176e59aba7c7012eeb21caa5f5",
+  "README.md": "e12ae9258221bfa8ba420f4f5f55e1f35f08a21c64014be27817164063113e12",
+  "docs/V5_PLAN.md": "6ee990bb5b951a0615fdf653303e44252efd2b42b994eb59b40d820336c6cfae",
+  "acceptance/V5_REPORT.md": "da83f4516149252a00f69fad4c6e92317784b3bd694ebda2977d3218a9b6c06f",
+  "acceptance/v5_supervisor_checks.py": "cb734431cdfececf12c1298e66ae1e099e52e889ade92f5df08c69f2c24f7537",
+  "acceptance/v5_independent_browser.cjs": "6c39d25ddad4ac14343668b5bc6785afe23e14aa687b1b890618a927b49fda6f",
+  "acceptance/v5_native_browser.cjs": "7be973e6d027f79ddc2436d1f5b6b446b2f7fa224d77b67bc7606dc3ab70540d",
+  "acceptance/v5_compat_browser.cjs": "e33f702543a3ee5207cc60f1d88541cb8edc3aa92cbac741604ce095f99a7188",
+  "acceptance/v5_fixture_server.py": "95fdeadc833b3d53b30a863a0f379b61307013d94a5f30b49aba000ca2c26c20",
+  "frontend/dist-v5/index.html": "813b3e0f58bff3b8c66d07c4fadc4b96f122eccaa6e99bb5593c7b40478ad97b",
+  "frontend/dist-v5/assets/index-CI7MBRjE.css": "0f6ecae2cf043077e874415b17d67beef9ffd0dabb802ef67c67100b7e3b223d",
+  "frontend/dist-v5/assets/index-PYD1dEIN.js": "a54c7c3e2687de5f4b69676774d31e173623cf42fc53083c780ad7bf91dccbea"
+}

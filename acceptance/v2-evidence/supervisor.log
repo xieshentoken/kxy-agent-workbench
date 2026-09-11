@@ -1,0 +1,17 @@
+test_blackbox_internal_file_snapshot_and_inactive_source_gate (__main__.SupervisorV2.test_blackbox_internal_file_snapshot_and_inactive_source_gate) ... /Users/<localuser>/Documents/Codex/DeeSear workflow/kxy/.venv/lib/python3.12/site-packages/passlib/utils/__init__.py:854: DeprecationWarning: 'crypt' is deprecated and slated for removal in Python 3.13
+  from crypt import crypt as _crypt
+ok
+test_blackbox_runs_and_preserves_nested_definition (__main__.SupervisorV2.test_blackbox_runs_and_preserves_nested_definition) ... ok
+test_full_chinese_filename_is_retained_without_filesystem_overflow (__main__.SupervisorV2.test_full_chinese_filename_is_retained_without_filesystem_overflow) ... ok
+test_human_is_real_breakpoint_and_single_use (__main__.SupervisorV2.test_human_is_real_breakpoint_and_single_use) ... ok
+test_inner_human_approval_works_from_top_level (__main__.SupervisorV2.test_inner_human_approval_works_from_top_level) ... ok
+test_invalid_nested_boundary_cycle_and_embedded_key_rejected (__main__.SupervisorV2.test_invalid_nested_boundary_cycle_and_embedded_key_rejected) ... ok
+test_reject_and_cancel_do_not_publish_downstream_outputs (__main__.SupervisorV2.test_reject_and_cancel_do_not_publish_downstream_outputs) ... ok
+test_seven_global_agents_and_source_bound_model_aliases (__main__.SupervisorV2.test_seven_global_agents_and_source_bound_model_aliases) ... ok
+test_unselected_human_inside_blackbox_does_not_pause (__main__.SupervisorV2.test_unselected_human_inside_blackbox_does_not_pause) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 1.939s
+
+OK
+Independent evidence data: /var/folders/p4/xpgbyw151b1c6gj3g__0dv_w0000gp/T/kxy-v2-supervisor-yvwwlhzy

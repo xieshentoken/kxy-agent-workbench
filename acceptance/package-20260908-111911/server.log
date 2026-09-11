@@ -1,0 +1,14 @@
+INFO:     Started server process [84724]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8736 (Press CTRL+C to quit)
+INFO:     127.0.0.1:52776 - "GET /api/health HTTP/1.1" 200
+INFO:     127.0.0.1:52777 - "GET / HTTP/1.1" 200
+INFO:     127.0.0.1:52778 - "GET /assets/index-Bokv2bTC.js HTTP/1.1" 200
+INFO:     127.0.0.1:52779 - "GET /assets/index-DMWTZgsZ.css HTTP/1.1" 200
+INFO:     127.0.0.1:52780 - "GET /api/files HTTP/1.1" 200
+INFO:     127.0.0.1:52781 - "GET /api/skills HTTP/1.1" 200
+INFO:     127.0.0.1:52782 - "GET /api/workflows HTTP/1.1" 200
+INFO:     127.0.0.1:52783 - "GET /api/runs HTTP/1.1" 200
+INFO:     127.0.0.1:52784 - "GET /api/credentials HTTP/1.1" 200
+INFO:     127.0.0.1:52785 - "GET /api/agents HTTP/1.1" 200

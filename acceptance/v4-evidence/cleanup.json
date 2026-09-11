@@ -1,0 +1,12 @@
+{
+  "test_ports_closed": [
+    8720,
+    8740
+  ],
+  "formal_health": {
+    "ok": true,
+    "app": "kxy",
+    "lfx": "1.12.0",
+    "lfx_error": null
+  }
+}

@@ -1,0 +1,14 @@
+test_condition_preserves_input_on_both_paths (__main__.IntegrationChecks.test_condition_preserves_input_on_both_paths) ... /Users/<localuser>/Documents/Codex/DeeSear workflow/kxy/.venv/lib/python3.12/site-packages/passlib/utils/__init__.py:854: DeprecationWarning: 'crypt' is deprecated and slated for removal in Python 3.13
+  from crypt import crypt as _crypt
+ok
+test_empty_pdf_does_not_become_parsed_from_page_labels (__main__.IntegrationChecks.test_empty_pdf_does_not_become_parsed_from_page_labels) ... ok
+test_missing_condition_field_fails_run (__main__.IntegrationChecks.test_missing_condition_field_fails_run) ... ok
+test_production_origin_allowed_external_origin_blocked (__main__.IntegrationChecks.test_production_origin_allowed_external_origin_blocked) ... ok
+test_rejects_bad_workflow_version_and_handles (__main__.IntegrationChecks.test_rejects_bad_workflow_version_and_handles) ... ok
+test_skill_frontmatter_is_metadata (__main__.IntegrationChecks.test_skill_frontmatter_is_metadata) ... ok
+test_xlsx_preserves_zero_false_and_row_locations (__main__.IntegrationChecks.test_xlsx_preserves_zero_false_and_row_locations) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.373s
+
+OK

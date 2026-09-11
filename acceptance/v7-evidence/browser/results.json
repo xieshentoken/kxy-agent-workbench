@@ -1,0 +1,23 @@
+{
+  "passed": [
+    "all five presets remain visible after delayed initial load and three new saves",
+    "preset details expand independently and explicit apply loads exact saved prompt",
+    "all saved presets survive reload and last entry is reachable at 1280x720",
+    "fresh catalog defaults to no selected models",
+    "model select/invert respects search scope, hidden selections, and empty results",
+    "browser saves a real Keychain item and saved-key retest preserves explicit selections",
+    "file and reply format bulk controls operate independently and persist in workflow JSON",
+    "zero intensity clears highlights and survives save/reload",
+    "higher intensity increases trail brightness and selection-pulse duration while highlights stay on actual grid points",
+    "reduced motion and disabled effects override intensity; reset restores defaults",
+    "no browser runtime errors"
+  ],
+  "errors": [],
+  "serviceId": "1853c80806a54136bbe91ba9277bc229",
+  "realKeychain": true,
+  "realInference": false,
+  "lowMax": 0.04252710956331197,
+  "highMax": 0.14104517731871558,
+  "lowSelectionMax": 0.3061084330641856,
+  "highSelectionMax": 0.43186668072493584
+}

@@ -1,0 +1,13 @@
+{
+  "real_keychain": true,
+  "real_provider_inference": false,
+  "store_and_native_read": true,
+  "list_configured": true,
+  "saved_reference_catalog_auth": true,
+  "blank_edit_keeps_key": true,
+  "rotation_preserves_service_and_old_item": true,
+  "rotated_reference_catalog_auth": true,
+  "no_secret_in_database": true,
+  "created_items": 2,
+  "deleted_created_items": 2
+}

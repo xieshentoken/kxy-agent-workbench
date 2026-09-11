@@ -1,0 +1,8 @@
+{
+  "passed": [
+    "legacy record default effort is shown exactly",
+    "legacy variant is shown as the effective effort",
+    "previous native model binding remains selectable and shows its real default"
+  ],
+  "errors": []
+}

@@ -1,0 +1,21 @@
+test_01_old_container_keeps_existing_files (__main__.V4Checks.test_01_old_container_keeps_existing_files) ... /Users/<localuser>/Documents/Codex/DeeSear workflow/kxy/.venv/lib/python3.12/site-packages/passlib/utils/__init__.py:854: DeprecationWarning: 'crypt' is deprecated and slated for removal in Python 3.13
+  from crypt import crypt as _crypt
+ok
+test_02_container_text_only_changes_real_files (__main__.V4Checks.test_02_container_text_only_changes_real_files) ... ok
+test_03_json_schema_and_content_export (__main__.V4Checks.test_03_json_schema_and_content_export) ... ok
+test_04_schema_mismatch_fails_run (__main__.V4Checks.test_04_schema_mismatch_fails_run) ... ok
+test_05_plain_text_and_legacy_json (__main__.V4Checks.test_05_plain_text_and_legacy_json) ... ok
+test_06_invalid_formats_and_remote_schema_rejected (__main__.V4Checks.test_06_invalid_formats_and_remote_schema_rejected) ... ok
+test_07_api_test_headers_and_version_path (__main__.V4Checks.test_07_api_test_headers_and_version_path) ... ok
+test_08_api_errors_do_not_leak_key_or_follow_redirect (__main__.V4Checks.test_08_api_errors_do_not_leak_key_or_follow_redirect) ... ok
+test_09_api_cross_origin_blocked (__main__.V4Checks.test_09_api_cross_origin_blocked) ... ok
+test_10_custom_base_path_is_preserved (__main__.V4Checks.test_10_custom_base_path_is_preserved) ... ok
+test_11_saved_reference_and_invalid_body_do_not_echo_key (__main__.V4Checks.test_11_saved_reference_and_invalid_body_do_not_echo_key) ... ok
+test_12_slow_probe_keeps_health_responsive (__main__.V4Checks.test_12_slow_probe_keeps_health_responsive) ... ok
+test_13_condition_preserves_json_content_type (__main__.V4Checks.test_13_condition_preserves_json_content_type) ... ok
+test_14_secrets_not_in_database (__main__.V4Checks.test_14_secrets_not_in_database) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 4.459s
+
+OK

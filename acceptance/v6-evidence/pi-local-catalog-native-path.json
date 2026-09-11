@@ -1,0 +1,14 @@
+{
+  "exit_code": 0,
+  "protocols": [
+    "openai-completions",
+    "openai-responses",
+    "anthropic-messages",
+    "google-generative-ai"
+  ],
+  "all_four_listed": true,
+  "stdout": "provider  model         context  max-out  thinking  images\nv6-0      v6-fixture-0  128K     16.4K    no        no    \nv6-1      v6-fixture-1  128K     16.4K    no        no    \nv6-2      v6-fixture-2  128K     16.4K    no        no    \nv6-3      v6-fixture-3  128K     16.4K    no        no    \n",
+  "stderr": "",
+  "inference": false,
+  "environment": "Inherited PATH, isolated HOME and PI_CODING_AGENT_DIR, synthetic key only"
+}

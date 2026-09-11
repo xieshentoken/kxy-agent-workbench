@@ -1,0 +1,17 @@
+{
+  "backend/app.py": "aa21c158e09b0ad9b762aa5a69d19d9d8159e556fa8d90126da34e445bd14199",
+  "backend/agent_config.py": "95bf3f74f580ec89d73deadd4609bf413ec5e280e2193051bd2d44884b505caf",
+  "frontend/src/App.tsx": "472f41c4d24a7a7d050641e34421f184b9d948b288ce084bab9c8dbfada7283e",
+  "frontend/src/v2.tsx": "4f9702c96ad371d3cd5523e69e0d92fe67ba3c3ffe3a5bc48daf83aded0f6bca",
+  "frontend/src/v3.tsx": "bd7abc56e6afdc420b44168a591ed3d717a6e7e6bdb0f0a09570237c92a608bb",
+  "frontend/src/styles.css": "7418e44393d7f0173b5464e657f00465c174379327c34003f7800b6796b8d146",
+  "README.md": "10d5a27adef2a58ccfa9ab6fbe409c7bc939707fa1dfde6f9f4213bb66de63c0",
+  "start.sh": "7a67210d4a9e34cc045dd4efe632786cc7968645f3fadb932aab5c3309f3aea7",
+  "acceptance/v7_supervisor_checks.py": "ead33a87ef1ff5e9a9869eeecca71d91d19fbd6f128d987efe1b683988fb4d2e",
+  "acceptance/v7_keychain_api_check.py": "a4a13aaf8c737dddf125b5afd75d496a808305181c36570d9c509add47000a79",
+  "acceptance/v7_fixture_server.py": "44463890e858f9f80ed9f0d654a0c6bb8131b31696f895eadac048de5fe6808c",
+  "acceptance/v7_independent_browser.cjs": "9670bd09a437e3bedd6993af0cf257a2af05d4820af125cb3e7aed4bf88ce1f1",
+  "frontend/dist-v7/index.html": "de473acd83f0f71602d046ec84d654b35aa7f01086f62826a2e167e74520e749",
+  "frontend/dist-v7/assets/index-Ck2iQGFk.js": "fea22150d1c567eb1113bb19ba4ef261e7780e722cf6dc1dc3d0c4c96f775f4f",
+  "frontend/dist-v7/assets/index-CJSzuTWk.css": "0d9fe5a1f9ca0b92eed4dc15b3546733e90546237a4218428a25b6e77d20e74f"
+}

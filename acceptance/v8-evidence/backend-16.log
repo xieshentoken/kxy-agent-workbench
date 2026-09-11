@@ -1,0 +1,23 @@
+test_01_resume_reuses_success_and_preserves_snapshot (__main__.V8Checks.test_01_resume_reuses_success_and_preserves_snapshot) ... /Users/<localuser>/Documents/Codex/DeeSear workflow/kxy/.venv/lib/python3.12/site-packages/passlib/utils/__init__.py:854: DeprecationWarning: 'crypt' is deprecated and slated for removal in Python 3.13
+  from crypt import crypt as _crypt
+ok
+test_02_success_cannot_resume (__main__.V8Checks.test_02_success_cannot_resume) ... ok
+test_03_tampered_success_artifact_blocks_reuse (__main__.V8Checks.test_03_tampered_success_artifact_blocks_reuse) ... ok
+test_04_condition_reconstructs_routing_without_wrong_branch (__main__.V8Checks.test_04_condition_reconstructs_routing_without_wrong_branch) ... ok
+test_05_blackbox_resumes_at_internal_node (__main__.V8Checks.test_05_blackbox_resumes_at_internal_node) ... ok
+test_06_human_rejection_cannot_be_resumed (__main__.V8Checks.test_06_human_rejection_cannot_be_resumed) ... ok
+test_07_approved_checkpoint_not_prompted_again (__main__.V8Checks.test_07_approved_checkpoint_not_prompted_again) ... ok
+test_08_restart_pending_human_still_requires_confirmation (__main__.V8Checks.test_08_restart_pending_human_still_requires_confirmation) ... ok
+test_09_revoked_grant_blocks_resume_before_cli (__main__.V8Checks.test_09_revoked_grant_blocks_resume_before_cli) ... ok
+test_10_partial_export_resume_keeps_published_first_output (__main__.V8Checks.test_10_partial_export_resume_keeps_published_first_output) ... ok
+test_11_real_subprocess_retry_mounts_skill_and_copies_upstream_file (__main__.V8Checks.test_11_real_subprocess_retry_mounts_skill_and_copies_upstream_file) ... ok
+test_12_blackbox_preset_keeps_boundary_nodes_and_local_model_reference (__main__.V8Checks.test_12_blackbox_preset_keeps_boundary_nodes_and_local_model_reference) ... ok
+test_13_legacy_analyzers_are_present_once_in_generic_catalog (__main__.V8Checks.test_13_legacy_analyzers_are_present_once_in_generic_catalog) ... ok
+test_14_nested_literal_secret_rejected (__main__.V8Checks.test_14_nested_literal_secret_rejected) ... ok
+test_15_resume_rejected_until_old_worker_finishes_cleanup (__main__.V8Checks.test_15_resume_rejected_until_old_worker_finishes_cleanup) ... ok
+test_16_motion_migration_is_once_only_and_preserves_zero (__main__.V8Checks.test_16_motion_migration_is_once_only_and_preserves_zero) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 2.509s
+
+OK

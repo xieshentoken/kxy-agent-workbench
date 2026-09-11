@@ -1,0 +1,17 @@
+{
+  "base": "http://127.0.0.1:8713",
+  "passed": [
+    "pointer movement produces visible pointer-events-none Canvas grid response",
+    "local text/code fonts, independent sizes, background upload and default persistence",
+    "Skill name search, name/date direction controls and checked-state preservation",
+    "MCP discovery is explicit, metadata-only and visibly opt-in",
+    "add, multi-file import and one-drag gesture each undo as one graph step",
+    "text editor keeps native typing undo separate and graph undo restores the field after reselection",
+    "nested blackbox edit returns without duplicate navigation step and undoes coherently",
+    "selected-card particle burst is visible in Canvas",
+    "prefers-reduced-motion pauses Canvas animation",
+    "1440, 1280 and narrow viewport have no horizontal overflow",
+    "no browser runtime or console errors"
+  ],
+  "errors": []
+}

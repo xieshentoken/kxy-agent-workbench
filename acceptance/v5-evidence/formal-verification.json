@@ -1,0 +1,91 @@
+{
+  "health": {
+    "ok": true,
+    "app": "kxy",
+    "lfx": "1.12.0",
+    "lfx_error": null
+  },
+  "original_tables": {
+    "settings": {
+      "count": 12,
+      "original_columns_unchanged": true,
+      "sha256": "06fa8e7436aa8d9bc83c5d4edc20bda457f88f8c72469e5f82cc156686e31b15"
+    },
+    "workflows": {
+      "count": 0,
+      "original_columns_unchanged": true,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "files": {
+      "count": 1,
+      "original_columns_unchanged": true,
+      "sha256": "c4142be9ae4fa42c5605ccca71e90c585e123390e48886046e53d8fcfe1f1cee"
+    },
+    "skills": {
+      "count": 2,
+      "original_columns_unchanged": true,
+      "sha256": "46399151a843e79a721946835e77ab85021f111c3febfdd74def1ade46a7ba5e"
+    },
+    "analyzers": {
+      "count": 1,
+      "original_columns_unchanged": true,
+      "sha256": "4af264d20927b332e1e961d4020b97511c642c6287a8c4215452340c707b6e4b"
+    },
+    "grants": {
+      "count": 1,
+      "original_columns_unchanged": true,
+      "sha256": "45d615d4954f74dd3036534a63e29650610c65a528a11741d6d50e403422f56b"
+    },
+    "credentials": {
+      "count": 1,
+      "original_columns_unchanged": true,
+      "sha256": "cefc583445bf45e599c08e1820e8d5e1731fc138b539dc24b9171e35dcff7b7c"
+    },
+    "runs": {
+      "count": 3,
+      "original_columns_unchanged": true,
+      "sha256": "c34d5fb0f873dc5e7ffa41d95456baaa6d6329d0c8b06b7357ebe8d68b91f9ea"
+    },
+    "run_nodes": {
+      "count": 12,
+      "original_columns_unchanged": true,
+      "sha256": "2a1cbf5272d94c3c8b33ee0374fe740eb8fcfc93230532942fa6802597e5aca1"
+    },
+    "run_events": {
+      "count": 165,
+      "original_columns_unchanged": true,
+      "sha256": "eb455e76b3f5f96b2e70f55fa9bf48d974db069145f2ba1ae12ebd3ec3b51d54"
+    },
+    "sqlite_sequence": {
+      "count": 1,
+      "original_columns_unchanged": true,
+      "sha256": "e8697dac3de0dd17a734774c4665623c6ff7a4f72a193b76d0f094987ff25bc9"
+    },
+    "run_approvals": {
+      "count": 0,
+      "original_columns_unchanged": true,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "agent_profiles": {
+      "count": 8,
+      "original_columns_unchanged": true,
+      "sha256": "7743abacc0326660787640dc3cc86a2c776b8d1f5453d194a35d80b4c75ffaeb"
+    },
+    "agent_models": {
+      "count": 72,
+      "original_columns_unchanged": true,
+      "sha256": "4ef6f6b3de5ccc8ffad5451e08e5c53d1752393035ff9237ec88c8dcf5596a3a"
+    },
+    "appearance_assets": {
+      "count": 1,
+      "original_columns_unchanged": true,
+      "sha256": "6e315a334e49612d1d6bc88a098244e0f4b2bac70daaa4ee883a371d04bcaea2"
+    }
+  },
+  "additive_schema_migration": true,
+  "unchanged_original_non_database_files": 1199,
+  "assets": {
+    "/assets/index-PYD1dEIN.js": "a54c7c3e2687de5f4b69676774d31e173623cf42fc53083c780ad7bf91dccbea",
+    "/assets/index-CI7MBRjE.css": "0f6ecae2cf043077e874415b17d67beef9ffd0dabb802ef67c67100b7e3b223d"
+  }
+}

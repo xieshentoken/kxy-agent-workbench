@@ -1,0 +1,21 @@
+test_condition_excludes_human_without_creating_approval (acceptance.v2_runtime_checks.RuntimeV2Checks.test_condition_excludes_human_without_creating_approval) ... /Users/<localuser>/Documents/Codex/DeeSear workflow/kxy/.venv/lib/python3.12/site-packages/passlib/utils/__init__.py:854: DeprecationWarning: 'crypt' is deprecated and slated for removal in Python 3.13
+  from crypt import crypt as _crypt
+ok
+test_env_secret_is_redacted_from_logs_and_output (acceptance.v2_runtime_checks.RuntimeV2Checks.test_env_secret_is_redacted_from_logs_and_output) ... ok
+test_internal_file_gate_runs_only_for_active_blackbox (acceptance.v2_runtime_checks.RuntimeV2Checks.test_internal_file_gate_runs_only_for_active_blackbox) ... ok
+test_long_chinese_display_name_uses_short_run_storage_path (acceptance.v2_runtime_checks.RuntimeV2Checks.test_long_chinese_display_name_uses_short_run_storage_path) ... ok
+test_nested_grant_snapshot_and_export (acceptance.v2_runtime_checks.RuntimeV2Checks.test_nested_grant_snapshot_and_export) ... ok
+test_nested_human_approval_is_operable_by_original_path (acceptance.v2_runtime_checks.RuntimeV2Checks.test_nested_human_approval_is_operable_by_original_path) ... ok
+test_nested_model_binding_is_frozen_before_human_pause (acceptance.v2_runtime_checks.RuntimeV2Checks.test_nested_model_binding_is_frozen_before_human_pause) ... ok
+test_nested_skill_snapshot_survives_library_deletion (acceptance.v2_runtime_checks.RuntimeV2Checks.test_nested_skill_snapshot_survives_library_deletion) ... ok
+test_recursive_blackbox_compilation_and_nested_output (acceptance.v2_runtime_checks.RuntimeV2Checks.test_recursive_blackbox_compilation_and_nested_output) ... ok
+test_reject_and_cancel_close_the_breakpoint_without_output_manifest (acceptance.v2_runtime_checks.RuntimeV2Checks.test_reject_and_cancel_close_the_breakpoint_without_output_manifest) ... ok
+test_restart_marks_waiting_human_and_approval_interrupted (acceptance.v2_runtime_checks.RuntimeV2Checks.test_restart_marks_waiting_human_and_approval_interrupted) ... ok
+test_structured_payload_survives_analyzer_human_and_container (acceptance.v2_runtime_checks.RuntimeV2Checks.test_structured_payload_survives_analyzer_human_and_container) ... ok
+test_validation_rejects_bad_boundary_depth_and_expansion (acceptance.v2_runtime_checks.RuntimeV2Checks.test_validation_rejects_bad_boundary_depth_and_expansion) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 3.063s
+
+OK
+Isolated V2 runtime evidence: /var/folders/p4/xpgbyw151b1c6gj3g__0dv_w0000gp/T/kxy-v2-runtime-gsx0szm1

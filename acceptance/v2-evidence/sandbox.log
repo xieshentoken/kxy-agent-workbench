@@ -1,0 +1,2 @@
+{"inside_written": true, "outside_write_blocked": true, "network_blocked": true}
+PASS actual OS sandbox write and network denial

@@ -1,0 +1,217 @@
+AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
++ actual - expected
+
++ 'V6 SECOND CONTAINER REPLY'
+- 'V6 FIRST CONTAINER REPLY'
+      ^
+
+kxy
+研究画布
+打开流程
+组件库
+保存
+撤回
+5
+导出
+导入
+设置
+运行流程
+检查器
+BUILDING BLOCKS
+组件库
+
+把研究过程拆成一条能回看的资料链。
+
+导入资料
+导入资料文件夹
+资料节点
+PDF · CSV · 图片
+文字输入
+问题 · 说明 · 上下文
+CLI 分析器
+Agent · 模型 · Skill
+条件分支
+字段 · 比较 · 路由
+人工确认
+审批 · 备注 · 继续
+黑盒子
+可进入编辑的子流程
+授权输出
+文件 · JSON · 溯源
+技能挂载
+导入
+尚未挂载本地技能。导入只做快照，不执行其中代码。
+分析器预设
+在右侧分析器设置中保存预设。
+快速开始
+资料提取
+扩展研究
+交叉核验
+RESEARCH WORKSPACE
+V6 two independent output containers
+移动
+框选
+封装
+本地模式
+输入
+A source
+V6 FIRST CONTAINER REPLY
+完成
+输出
+A output
+回复 仅界面 · 文件 不接收
+完成
+输入
+B source
+V6 SECOND CONTAINER REPLY
+完成
+输出
+B output
+回复 仅界面 · 文件 不接收
+完成
+移动模式 · 空格/中键平移 · 切换框选后拖拽选择
+INSPECTOR
+节点设置
+授权输出
+out-a
+节点名称
+
+输出容器只收集活动分支的结果，并写入每次运行独立目录。授权文件夹需要你明确选择。
+
+READABLE REPLY
+正文回复
+来自运行记录
+这里是当前输出容器的只读运行快照；编辑副本、JSON 校验与下载在下方执行面板中完成。
+正文回复导出（可选）
+Markdown（.md）
+纯文本（.txt）
+JSON（.json）
+GENERATED FILES
+接收文件扩展名
+不接收
+
+只复制真实生成且位于 outputs/ 内的文件；不会把正文转换成文件。空数组表示文件留在运行目录，不进入授权输出。
+
+.txt
+.md
+.json
+.csv
+.pdf
+.docx
+.xlsx
+.pptx
+.png
+.jpg
+.jpeg
+.webp
+.svg
+.html
+.mp4
+.avi
+.zip
+JSON 文件内容
+完整记录
+仅内容
+完整模式保留容器元数据；内容模式只导出正文/结构化 content
+输出文件夹授权
+仅保存在运行目录
+/private/tmp/kxy-v6-browser-data/browser-authorized
+/private/tmp/kxy-v6-browser-data/browser-authorized
+/private/tmp/kxy-v6-browser-data/browser-authorized
+/private/tmp/kxy-v6-browser-data/browser-authorized
+/private/tmp/kxy-v6-browser-data/browser-authorized
+/private/tmp/kxy-v6-browser-data/browser-authorized
+/private/tmp/kxy-v6-browser-data/browser-authorized
+授权一个输出文件夹
+/private/tmp/kxy-v6-browser-data/browser-authorized
+撤销
+/private/tmp/kxy-v6-browser-data/browser-authorized
+撤销
+/private/tmp/kxy-v6-browser-data/browser-authorized
+撤销
+/private/tmp/kxy-v6-browser-data/browser-authorized
+撤销
+/private/tmp/kxy-v6-browser-data/browser-authorized
+撤销
+/private/tmp/kxy-v6-browser-data/browser-authorized
+撤销
+/private/tmp/kxy-v6-browser-data/browser-authorized
+撤销
+EXECUTION
+运行 46430ccd
+已完成
+text-a
+succeeded
+out-a
+succeeded
+text-b
+succeeded
+out-b
+succeeded
+运行输出
+out-a · 最终容器
+out-b · 最终容器
+text-a
+text-b
+来自运行记录
+READABLE REPLY
+正文回复
+可复制 / 可下载
+V6 SECOND CONTAINER REPLY
+
+正文与 JSON 可编辑、导入和下载；这些操作只生成副本，不会改写已完成运行或原始输入。自动模式保留 Agent 原文；空正文也是有效的文件型运行。
+
+编辑副本
+校验 JSON
+导入 JSON
+下载 JSON
+下载正文
+正文副本
+JSON 副本
+展开完整运行输出映射
+授权输出：/private/tmp/kxy-v6-browser-data/runs/46430ccd3034488c96aeade217c2b31c/workspace/exports/out-a
+授权输出：/private/tmp/kxy-v6-browser-data/runs/46430ccd3034488c96aeade217c2b31c/workspace/exports/out-b
+运行目录文件：provenance.json · 2 KB
+运行目录文件：provenance.json · 2 KB
+out-a 文本预览
+
+V6 FIRST CONTAINER REPLY
+
+text-b 文本预览
+
+V6 SECOND CONTAINER REPLY
+
+out-b 文本预览
+
+V6 SECOND CONTAINER REPLY
+
+18:33:30
+node_finished
+succeeded
+18:33:30
+lfx_vertex
+18:33:30
+node_started
+18:33:30
+node_finished
+succeeded
+18:33:30
+lfx_vertex
+18:33:30
+node_started
+18:33:30
+node_finished
+succeeded
+18:33:30
+lfx_vertex
+18:33:30
+node_started
+18:33:30
+node_finished
+succeeded
+18:33:30
+lfx_vertex
+18:33:30
+run_finished
+succeeded
+已开始运行，可在下方查看进度和结果

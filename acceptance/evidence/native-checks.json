@@ -1,0 +1,18 @@
+{
+  "date": "2026-09-05",
+  "sandbox": {
+    "inside_write": true,
+    "outside_write_blocked": true,
+    "network_blocked": true
+  },
+  "keychain": {
+    "native_create": true,
+    "native_read_matches_synthetic_value": true,
+    "no_secret_in_api_or_sqlite": true,
+    "synthetic_item_deleted": true
+  },
+  "original_files": {
+    "checked": 10,
+    "changed": 0
+  }
+}

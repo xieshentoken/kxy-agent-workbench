@@ -1,0 +1,24 @@
+{
+  "run_id": "84230ebf6d624d0db55fbbd6697e796d",
+  "status": "succeeded",
+  "actual_completed_mcp_calls": [
+    {
+      "server": "kxy_fixture",
+      "tool": "kxy_fixture_marker",
+      "status": "completed",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "KXY_MCP_TOOL_CONFIRMED_7391"
+          }
+        ],
+        "structured_content": null
+      }
+    }
+  ],
+  "artifact_count": 7,
+  "native_config_auth_unchanged": true,
+  "source_skill_unchanged": true,
+  "secrets_absent_from_database_and_run_tree": true
+}

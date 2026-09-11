@@ -1,0 +1,35 @@
+test_01_prompt_is_literal_and_no_automatic_answer_file (__main__.V6Checks.test_01_prompt_is_literal_and_no_automatic_answer_file) ... /Users/<localuser>/Documents/Codex/DeeSear workflow/kxy/.venv/lib/python3.12/site-packages/passlib/utils/__init__.py:854: DeprecationWarning: 'crypt' is deprecated and slated for removal in Python 3.13
+  from crypt import crypt as _crypt
+ok
+test_02_json_validation_does_not_change_prompt (__main__.V6Checks.test_02_json_validation_does_not_change_prompt) ... ok
+test_03_auto_json_remains_structured_for_condition (__main__.V6Checks.test_03_auto_json_remains_structured_for_condition) ... ok
+test_04_only_allowed_real_files_reach_grant (__main__.V6Checks.test_04_only_allowed_real_files_reach_grant) ... ok
+test_05_files_only_reply_is_valid (__main__.V6Checks.test_05_files_only_reply_is_valid) ... ok
+test_06_symlink_file_is_rejected (__main__.V6Checks.test_06_symlink_file_is_rejected) ... ok
+test_07_grok_attachment_argv_does_not_append_prompt (__main__.V6Checks.test_07_grok_attachment_argv_does_not_append_prompt) ... ok
+test_08_service_is_reusable_metadata_and_blank_key_edit (__main__.V6Checks.test_08_service_is_reusable_metadata_and_blank_key_edit) ... ok
+test_09_service_reuse_and_incompatible_agent_gate (__main__.V6Checks.test_09_service_reuse_and_incompatible_agent_gate) ... ok
+test_10_saved_key_cannot_be_redirected_by_edit (__main__.V6Checks.test_10_saved_key_cannot_be_redirected_by_edit) ... ok
+test_11_protocol_catalog_models_and_headers (__main__.V6Checks.test_11_protocol_catalog_models_and_headers) ... ok
+test_12_catalog_redirect_and_secret_echo_rejected (__main__.V6Checks.test_12_catalog_redirect_and_secret_echo_rejected) ... ok
+test_13_key_does_not_enter_database (__main__.V6Checks.test_13_key_does_not_enter_database) ... ok
+test_14_selected_skill_and_input_manifest_do_not_rewrite_prompt (__main__.V6Checks.test_14_selected_skill_and_input_manifest_do_not_rewrite_prompt) ... ok
+test_15_explicit_json_is_validation_not_a_conversion (__main__.V6Checks.test_15_explicit_json_is_validation_not_a_conversion) ... ok
+test_16_saved_probe_uses_bound_endpoint (__main__.V6Checks.test_16_saved_probe_uses_bound_endpoint) ... ok
+test_17_attachment_is_available_without_prompt_suffix (__main__.V6Checks.test_17_attachment_is_available_without_prompt_suffix) ... ok
+test_18_invalid_file_extension_policy_is_rejected (__main__.V6Checks.test_18_invalid_file_extension_policy_is_rejected) ... ok
+test_19_empty_file_allowlist_keeps_actual_files_internal (__main__.V6Checks.test_19_empty_file_allowlist_keeps_actual_files_internal) ... ok
+test_20_blank_prompt_does_not_get_fallback_instruction (__main__.V6Checks.test_20_blank_prompt_does_not_get_fallback_instruction) ... ok
+test_21_empty_reply_and_no_files_is_failure (__main__.V6Checks.test_21_empty_reply_and_no_files_is_failure) ... ok
+test_22_deleted_service_cannot_fall_back_to_native_login (__main__.V6Checks.test_22_deleted_service_cannot_fall_back_to_native_login) ... ok
+test_23_rotated_key_cannot_enter_public_metadata (__main__.V6Checks.test_23_rotated_key_cannot_enter_public_metadata) ... ok
+test_24_valid_key_rotation_preserves_service_identity (__main__.V6Checks.test_24_valid_key_rotation_preserves_service_identity) ... ok
+test_25_startup_logs_are_not_final_reply_when_files_exist (__main__.V6Checks.test_25_startup_logs_are_not_final_reply_when_files_exist) ... ok
+test_26_runtime_uses_exact_saved_service_not_same_named_native_model (__main__.V6Checks.test_26_runtime_uses_exact_saved_service_not_same_named_native_model) ... ok
+test_27_anthropic_sdk_base_does_not_duplicate_version_path (__main__.V6Checks.test_27_anthropic_sdk_base_does_not_duplicate_version_path) ... ok
+test_28_google_service_creates_real_pi_configuration (__main__.V6Checks.test_28_google_service_creates_real_pi_configuration) ... ok
+
+----------------------------------------------------------------------
+Ran 28 tests in 5.224s
+
+OK

@@ -1,0 +1,185 @@
+kxy
+研究画布
+打开流程
+组件库
+保存
+撤回
+5
+导出
+导入
+设置
+运行流程
+检查器
+BUILDING BLOCKS
+组件库
+
+把研究过程拆成一条能回看的资料链。
+
+导入资料
+导入资料文件夹
+资料节点
+PDF · CSV · 图片
+文字输入
+问题 · 说明 · 上下文
+CLI 分析器
+Agent · 模型 · Skill
+条件分支
+字段 · 比较 · 路由
+人工确认
+审批 · 备注 · 继续
+黑盒子
+可进入编辑的子流程
+授权输出
+文件 · JSON · 溯源
+技能挂载
+导入
+尚未挂载本地技能。导入只做快照，不执行其中代码。
+分析器预设
+在右侧分析器设置中保存预设。
+快速开始
+资料提取
+扩展研究
+交叉核验
+RESEARCH WORKSPACE
+V4独立验收
+移动
+框选
+本地模式
+输入
+plain
+SYNTHETIC_V4_BODY
+完成
+输出
+result
+text · json · 保留溯源
+完成
+移动模式 · 空格/中键平移 · 切换框选后拖拽选择
+WORKSPACE
+工作台
+外观设置已集中到全局面板
+
+字体、字号、背景图、动效与撤回深度只在一个地方保存。
+
+打开全局设置
+选中一个节点
+
+在画布中选择节点，调整输入、CLI、条件和输出授权。
+
+EXECUTION
+运行 e40af3b6
+已完成
+plain
+succeeded
+result
+succeeded
+最终产物副本
+plain
+result · 最终容器
+只读于运行记录
+
+正文与 JSON 可编辑、导入和下载；这些操作只生成副本，不会改写已完成运行或原始输入。下拉框选择最终容器或其他节点的完整 payload。
+
+结束编辑
+校验 JSON
+导入 JSON
+下载 JSON
+下载正文
+Expected property name or '}' in JSON at position 1 (line 1 column 2)
+正文副本
+JSON 副本
+展开完整运行输出映射
+授权输出：/private/tmp/kxy-v4-browser-data/runs/e40af3b682bc40be90dab0f689b342f4/workspace/exports/result
+provenance.json · 1 KB
+result.json · 0 KB
+result.txt · 0 KB
+plain 文本预览
+
+SYNTHETIC_V4_BODY
+
+result 文本预览
+
+SYNTHETIC_V4_BODY
+
+16:30:42
+run_queued
+16:30:42
+run_started
+16:30:42
+node_started
+16:30:42
+node_finished
+succeeded
+16:30:42
+lfx_vertex
+16:30:42
+node_started
+16:30:42
+node_finished
+succeeded
+16:30:42
+lfx_vertex
+16:30:42
+run_finished
+succeeded
+GLOBAL WORKSPACE
+全局设置
+
+Agent、模型/API 与外观只在这里配置；节点只保存可复用的引用。
+
+Agent 配置
+模型 / API
+外观
+手动模式
+手动：发现不可用时直接填写真实模型 ID 与 effort；通常复用 CLI login。绑定凭据后执行会使用该凭据。
+MODEL REGISTRY
+全局模型记录
+0 条
+
+模型以稳定 ID 区分；同名原生/API 记录也会显示各自 alias 与来源。删除后节点会明确提示重新绑定。
+
+尚未发现模型，可添加一个标记为“手动”的记录。
+MODEL / API ENTRY
+添加模型
+绑定 Agent
+Codex
+Claude Code
+OpenCode
+pi
+Hermes
+WorkBuddy
+DeepSeek Harness
+来源
+API
+手动
+显示 alias
+用于节点和全局模型下拉框；建议写上供应商或用途
+实际模型标识
+支持的 effort
+只填已验证支持的值，用逗号分隔
+默认 effort
+Agent 默认 / 未设置
+API 凭据引用
+使用 CLI 已有登录
+可留空，使用 CLI 已有登录；密钥本体永不进入模型记录
+创建模型
+Keychain store
+
+只在本机写入 Keychain；成功后清空输入框，并只把 opaque credential_id 绑定到模型。
+
+提供商
+OpenAI
+Anthropic
+Endpoint（可选）
+API key
+写入 Keychain 并绑定
+CONNECTION TEST
+测试 API 模型目录
+手动触发
+
+只请求 provider 的 /models；不保存、不自动测试已保存凭据，也不进行模型推理。选择已保存凭据时，测试请求使用其绑定地址。
+
+测试已保存凭据
+使用下方未保存 key
+测试 Endpoint（可选）
+留空使用默认地址。
+测试连接（/models）

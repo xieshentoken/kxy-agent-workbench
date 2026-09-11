@@ -1,0 +1,11 @@
+PASS all five presets remain visible after delayed initial load and three new saves
+PASS preset details expand independently and explicit apply loads exact saved prompt
+PASS all saved presets survive reload and last entry is reachable at 1280x720
+PASS fresh catalog defaults to no selected models
+PASS model select/invert respects search scope, hidden selections, and empty results
+PASS browser saves a real Keychain item and saved-key retest preserves explicit selections
+PASS file and reply format bulk controls operate independently and persist in workflow JSON
+PASS zero intensity clears highlights and survives save/reload
+PASS higher intensity increases trail brightness and selection-pulse duration while highlights stay on actual grid points
+PASS reduced motion and disabled effects override intensity; reset restores defaults
+PASS no browser runtime errors

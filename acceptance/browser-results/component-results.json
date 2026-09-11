@@ -1,0 +1,12 @@
+{
+  "passed": [
+    "skill import, analyzer attachment, badge and preset save",
+    "preset creates analyzer and restores effort",
+    "API key uses password input",
+    "manual handle connection creates edge",
+    "manual graph run and UI-authorized folder export",
+    "workflow export removes folder and credential grants",
+    "folder authorization revoke",
+    "desktop panel collapse and restore"
+  ]
+}

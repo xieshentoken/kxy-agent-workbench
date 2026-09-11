@@ -1,0 +1,52 @@
+/* One settings journey against the isolated synthetic V10 fixture. */
+const {chromium}=require('playwright');
+const fs=require('node:fs'),assert=require('node:assert/strict');
+const BASE='http://127.0.0.1:8724';
+const n=(id,type,data,x=0)=>({id,type,data,position:{x,y:140}});
+const edge=(source,target)=>({id:source+'-'+target,source,target,sourceHandle:'result',targetHandle:'items'});
+const flow=(nodes,edges=[])=>({version:'kxy.workflow.v1',name:'V10 settings synthetic',nodes,edges});
+(async()=>{
+ const browser=await chromium.launch({headless:true,executablePath:'/Applications/Microsoft Edge.app/Contents/MacOS/Microsoft Edge'});
+ const page=await browser.newPage({viewport:{width:1440,height:1000}}),errors=[];page.on('pageerror',e=>errors.push(e.message));
+ const get=async url=>(await page.request.get(BASE+url)).json();
+ const importFlow=async document=>{const done=page.waitForResponse(r=>r.url().includes('/validate')&&r.request().method()==='POST');await page.locator('input[type=file][accept="application/json,.json"]').first().setInputFiles({name:'v10.json',mimeType:'application/json',buffer:Buffer.from(JSON.stringify(document))});const validation=await(await done).json();assert.ok(validation.ok,JSON.stringify(validation));await page.waitForFunction(count=>document.querySelectorAll('.react-flow__node').length===count,document.nodes.length);};
+ const exportFlow=async()=>{const event=page.waitForEvent('download');await page.locator('.top-actions').getByRole('button',{name:'导出',exact:true}).click();return JSON.parse(fs.readFileSync(await(await event).path(),'utf8'));};
+ const saveSettings=async name=>{const event=page.waitForResponse(r=>r.url().endsWith('/api/settings')&&r.request().method()==='PUT');await page.getByRole('button',{name,exact:true}).click();const r=await event;assert.ok(r.ok(),await r.text());};
+ try{
+  await page.goto(BASE);await page.locator('.library-item').first().waitFor();
+  await importFlow(flow([n('old','analyzer',{label:'Old explicit',cli:'claude',prompt:'old prompt',model_ref:'',effort:''})]));
+  await page.getByTitle('全局设置',{exact:true}).click();
+  const scan=page.waitForResponse(r=>r.url().includes('/api/agents')&&r.request().method()==='POST');
+  await page.getByRole('button',{name:'检查并刷新全部',exact:true}).click();assert.ok((await scan).ok());
+  await page.waitForFunction(()=>document.querySelector('.login-status-card')?.textContent.includes('已确认登录'));
+  await page.getByRole('button',{name:'新建默认值',exact:true}).click();
+  await page.locator('label.form-field').filter({hasText:'默认方式'}).locator('select').selectOption('model');
+  const saved=(await get('/api/agent-models')).find(x=>x.alias==='V10 保存模型');assert.ok(saved);
+  await page.getByLabel('固定模型绑定',{exact:false}).selectOption(saved.id);
+  await page.locator('label.form-field').filter({hasText:'默认 effort'}).locator('select').selectOption('high');
+  await saveSettings('保存默认分析器');
+  await page.getByRole('checkbox',{name:'纯文本（.txt）',exact:true}).check();
+  await page.getByRole('checkbox',{name:'JSON（.json）',exact:true}).check();
+  await page.getByRole('checkbox',{name:'.txt',exact:true}).check();
+  await page.getByLabel('JSON 文件模式',{exact:false}).selectOption('content');
+  await saveSettings('保存输出默认值');
+  assert.ok((await page.locator('.managed-output-card').innerText()).includes('provenance.json'));
+  await page.getByRole('button',{name:'外观',exact:true}).click();await saveSettings('保存为默认样式');
+  await page.getByTitle('关闭设置',{exact:true}).click();
+  assert.equal((await exportFlow()).nodes.find(x=>x.id==='old').data.cli,'claude');
+  await page.reload();await page.locator('.library-item').first().waitFor();await page.getByTitle('全局设置',{exact:true}).click();await page.getByRole('button',{name:'新建默认值',exact:true}).click();await page.waitForFunction(()=>document.querySelector('.default-effective-card')?.textContent.includes('V10 保存模型'));await page.getByTitle('关闭设置',{exact:true}).click();await importFlow(flow([n('empty-source','text',{label:'新建测试',text:'synthetic'})]));
+  await page.locator('.library-item').filter({hasText:'CLI 分析器'}).click();
+  await page.locator('.library-item').filter({hasText:'授权输出'}).click();
+  let doc=await exportFlow(),analyzer=doc.nodes.find(x=>x.type==='analyzer'),container=doc.nodes.find(x=>x.type==='container');
+  assert.equal(analyzer.data.cli,'codex');assert.equal(analyzer.data.model_ref,saved.id);assert.equal(analyzer.data.effort,'high');
+  assert.deepEqual([...container.data.export_formats].sort(),['json','text']);assert.deepEqual(container.data.allowed_file_extensions,['.txt']);assert.equal(container.data.json_mode,'content');
+  analyzer.position={x:320,y:140};container.position={x:650,y:140};
+  doc=flow([n('source','text',{label:'合成输入',text:'synthetic material'}),analyzer,container],[edge('source',analyzer.id),edge(analyzer.id,container.id)]);
+  await importFlow(doc);const event=page.waitForResponse(r=>r.url().endsWith('/api/runs')&&r.request().method()==='POST');await page.getByRole('button',{name:'运行流程',exact:true}).click();const response=await event;assert.ok(response.ok(),await response.text());const rid=(await response.json()).id;
+  let result;const deadline=Date.now()+15000;do{result=await get('/api/runs/'+rid);if(['succeeded','failed'].includes(result.status))break;await new Promise(r=>setTimeout(r,150));}while(Date.now()<deadline);
+  assert.equal(result.status,'succeeded',result.error);
+  const dest=result.output_manifest.granted_outputs.find(x=>x.node_id===container.id).path;
+  assert.equal(fs.readFileSync(dest+'/result.txt','utf8'),'V10 合成正文');assert.equal(JSON.parse(fs.readFileSync(dest+'/result.json','utf8')),'V10 合成正文');assert.ok(!fs.existsSync(dest+'/result.md'));assert.ok(fs.existsSync(dest+'/files/proof.txt'));assert.ok(fs.existsSync(dest+'/provenance.json'));assert.ok(fs.existsSync(dest+'/export-receipt.json'));
+  assert.deepEqual(errors,[]);console.log('PASS V10 settings UI: scan, saved model/effort, reload, old node preservation, actual output files; run='+rid);
+ }finally{await browser.close();}
+})().catch(e=>{console.error(e);process.exitCode=1;});

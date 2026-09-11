@@ -1,0 +1,15 @@
+{
+  "passed": [
+    "global settings expose seven agent profiles and real Codex discovery",
+    "folder picker contract, profile save, real skill scan and checked snapshot import",
+    "global model creation, alias/effort selection and Skill analyzer preset",
+    "long Unicode filename drop, containment and full hover title",
+    "real LFX human pause, custom content, browser reload and confirmation continue",
+    "blackbox pack, inner canvas edit, export and real inner approval execution",
+    "blackbox unpack preserves all external connections",
+    "1440/1280/narrow settings and canvas overflow",
+    "no browser runtime/console errors"
+  ],
+  "errors": [],
+  "picker": "stubbed; native tested separately"
+}

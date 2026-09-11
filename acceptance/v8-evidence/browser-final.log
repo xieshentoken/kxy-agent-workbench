@@ -1,0 +1,8 @@
+PASS eight component categories and legacy analyzer appear without duplicates
+PASS category groups switch between newest date and name order
+PASS missing resources inside blackboxes are visible and block insertion
+PASS UI saves nested blackbox; details do not apply; repeated insertion remaps IDs and undo removes one insertion
+PASS saved presets survive reload and remain reachable at 1280x720
+PASS 30 equals old maximum, 100 uses coefficient 3, grid alignment and reduced motion retained, zero persists
+PASS UI restores original run snapshot; completed analyzer called once, failed analyzer retried, two attempts audited
+PASS no browser runtime errors

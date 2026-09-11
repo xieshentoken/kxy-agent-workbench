@@ -1,0 +1,56 @@
+/* One independent browser journey; isolated API/LFX with synthetic CLI responses. */
+const { chromium } = require('playwright');
+const fs = require('node:fs'), path = require('node:path'), assert = require('node:assert/strict');
+const BASE='http://127.0.0.1:8724';
+const OUT=path.join(__dirname,'v9-evidence'); fs.mkdirSync(OUT,{recursive:true});
+const n=(id,type,data,x=0)=>({id,type,data,position:{x,y:160}});
+const e=(source,target)=>({id:source+'-'+target,source,target,sourceHandle:'result',targetHandle:'items'});
+const flow=(nodes,edges)=>({version:'kxy.workflow.v1',name:'V9 independent synthetic journey',nodes,edges});
+(async()=>{
+ const browser=await chromium.launch({headless:true,executablePath:'/Applications/Microsoft Edge.app/Contents/MacOS/Microsoft Edge'});
+ const page=await browser.newPage({viewport:{width:1440,height:900}}), errors=[];
+ page.on('pageerror',error=>errors.push(error.message));
+ const importFlow=async document=>{await page.locator('input[type=file][accept="application/json,.json"]').first().setInputFiles({name:'v9.json',mimeType:'application/json',buffer:Buffer.from(JSON.stringify(document))});};
+ const exportFlow=async()=>{const pending=page.waitForEvent('download');await page.locator('.top-actions').getByRole('button',{name:'导出',exact:true}).click();return JSON.parse(fs.readFileSync(await(await pending).path(),'utf8'));};
+ try {
+  await page.goto(BASE);await page.locator('.library-item').filter({hasText:'有界循环'}).waitFor();
+  await importFlow(flow([],[]));
+  await page.locator('.library-item').filter({hasText:'有界循环'}).click();
+  let document=await exportFlow(), box=document.nodes.find(x=>x.data.loop?.enabled);
+  assert.ok(box,'Library creates a loop blackbox');
+  await page.locator(`.react-flow__node[data-id="${box.id}"]`).click();
+  await page.getByLabel('最大轮数',{exact:true}).fill('1');
+  await page.getByLabel('原始目标',{exact:false}).fill('V9 合成资料调研');
+  const saving=page.waitForResponse(r=>r.url().endsWith('/api/presets')&&r.request().method()==='POST');
+  await page.locator('.right-panel').getByRole('button',{name:/保存.*预设/}).click();assert.ok((await saving).ok());
+  const preset=page.locator('.preset-item').filter({hasText:'有界循环'}).last();
+  await preset.locator('.preset-apply').click();
+  document=await exportFlow();
+  const inserted=document.nodes.filter(x=>x.data.loop?.enabled);assert.equal(inserted.length,2);
+  box=inserted.find(x=>x.id!==box.id);assert.ok(box);
+  const childIds=box.data.workflow.nodes.map(x=>x.id);
+  assert.ok(childIds.includes(box.data.loop.executor_id));assert.ok(childIds.includes(box.data.loop.reviewer_id));
+  box.data.workflow.nodes.forEach(x=>{if(x.type==='analyzer'){x.data.model_ref='';x.data.model='';x.data.skill_ids=[];x.data.mcp_ids=[];x.data.prompt=x.id===box.data.loop.reviewer_id?'V9_REVIEW':'V9_EXECUTOR';x.data.cli=x.id===box.data.loop.reviewer_id?'claude':'codex';}});
+  box.position={x:330,y:160};box.data.loop.max_rounds=1;
+  document=flow([n('source','text',{label:'合成资料',text:'V9 public synthetic material'}),box,n('out','container',{label:'最终输出',export_formats:[],allowed_file_extensions:[]},690)],[e('source',box.id),e(box.id,'out')]);
+  await importFlow(document);
+  const submit=page.waitForResponse(r=>r.url().endsWith('/api/runs')&&r.request().method()==='POST');
+  await page.getByRole('button',{name:'运行流程',exact:true}).click();const response=await submit;assert.ok(response.ok(),await response.text());const rid=(await response.json()).id;
+  await page.getByRole('button',{name:'增加 1 轮 / 5 分钟',exact:true}).waitFor({timeout:20000});
+  await page.screenshot({path:path.join(OUT,'loop-paused.png')});
+  await page.getByRole('button',{name:'增加 1 轮 / 5 分钟',exact:true}).click();
+  let result; const deadline=Date.now()+20000;
+  do { result=await(await page.request.get(BASE+'/api/runs/'+rid)).json(); if(result.status==='succeeded')break; if(['failed','cancelled','rejected'].includes(result.status))throw new Error(JSON.stringify(result)); await new Promise(resolve=>setTimeout(resolve,150)); } while(Date.now()<deadline);
+  assert.equal(result.status,'succeeded');
+  assert.equal(result.loop_rounds.length,2);assert.equal(result.loop_rounds[0].review_passed,false);assert.equal(result.loop_rounds[1].review_passed,true);
+  assert.ok(JSON.stringify(result.output_manifest.outputs.out).includes('第 2 轮'));
+  const select=page.getByRole('combobox',{name:'选择循环轮次'});await select.waitFor();await select.locator('option').nth(1).waitFor({state:'attached'});
+  await select.selectOption({index:0});assert.ok(await page.locator('.loop-round-grid').innerText().then(t=>t.includes('补充证据来源')));
+  await select.selectOption({index:1});await page.waitForFunction(()=>document.querySelector('.loop-round-grid')?.textContent.includes('已补充来源'));await page.locator('.loop-diff summary').click();
+  assert.ok((await page.locator('.loop-round-grid').innerText()).includes('已补充来源'));
+  await page.screenshot({path:path.join(OUT,'loop-round-two.png')});
+  assert.deepEqual(errors,[]);
+  fs.writeFileSync(path.join(OUT,'browser-result.json'),JSON.stringify({passed:true,run_id:rid,checks:['create/configure loop','preset remaps role IDs','limit pause and manual continue','round two accepted','round selection and diff'],console_errors:errors},null,2));
+  console.log('PASS V9 browser journey:',rid);
+ } finally {await browser.close();}
+})().catch(error=>{console.error(error);process.exitCode=1;});

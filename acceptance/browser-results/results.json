@@ -1,0 +1,15 @@
+{
+  "passed": [
+    "canvas styles and initial rendering",
+    "actual file drop creates bound input node",
+    "canvas node dragging",
+    "workflow JSON import, save, reload and inspect",
+    "true condition route through real LFX",
+    "false route preserves upstream text and previews results",
+    "artifact download",
+    "font and colors persist across reload",
+    "1440, 1280 and narrow viewport overflow check",
+    "no browser runtime or console errors"
+  ],
+  "errors": []
+}

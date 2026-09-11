@@ -1,0 +1,13 @@
+{
+  "exit_code": -6,
+  "protocols": [
+    "openai-completions",
+    "openai-responses",
+    "anthropic-messages",
+    "google-generative-ai"
+  ],
+  "all_four_listed": false,
+  "stdout": "",
+  "stderr": "dyld[14940]: Library not loaded: /opt/homebrew/opt/simdutf/lib/libsimdutf.34.dylib\n  Referenced from: <C9D72C6F-4E08-30C4-9A10-51C5128D3C2E> /opt/homebrew/Cellar/merve/1.2.2_1/lib/libmerve.1.2.2.dylib\n  Reason: tried: '/opt/homebrew/opt/simdutf/lib/libsimdutf.34.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/opt/homebrew/opt/simdutf/lib/libsimdutf.34.dylib' (no such file), '/opt/homebrew/opt/simdutf/lib/libsimdutf.34.dylib' (no such file), '/opt/homebrew/Cellar/simdutf/9.1.0/lib/libsimdutf.34.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/opt/homebrew/Cellar/simdutf/9.1.0/lib/libsimdutf.34.dylib' (no such file), '/opt/homebrew/Cellar/simdutf/9.1.0/lib/libsimdutf.34.dylib' (no such file)\n",
+  "inference": false
+}

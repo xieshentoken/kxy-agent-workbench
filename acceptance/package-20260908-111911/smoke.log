@@ -1,0 +1,2 @@
+PASS health, frontend HTML/JS/CSS, 7 CLI presets and clean user data
+PASS post-install verifier, tamper rejection, traversal rejection and restored originals

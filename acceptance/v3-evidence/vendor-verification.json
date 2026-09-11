@@ -1,0 +1,49 @@
+{
+  "commit": "48b6919c9d0b39aa488f682d7ddcf2838cbaedee",
+  "files": {
+    "LICENSE": {
+      "matches_upstream": true,
+      "sha256": "36a5adbb3e6beef58aae61a4050c4e6430d78184aaf2b45c5344bc3a0812d3f4"
+    },
+    "skillhub/__init__.py": {
+      "matches_upstream": true,
+      "sha256": "d1da7e461fffa486f27e3e7f170db7a6d22aae2f7bd519ac12e8ed0d2e3a1114"
+    },
+    "skillhub/__main__.py": {
+      "matches_upstream": true,
+      "sha256": "24f793318af47a7764a7adb8a5071c0bfc46fab6ccd17dc189aad3df3eaf2ff4"
+    },
+    "skillhub/adapters.py": {
+      "matches_upstream": true,
+      "sha256": "bf9cbef2924cb08d42400f7281fdf48cb7e576fa3a155027594ddeb61ce00d0c"
+    },
+    "skillhub/cli.py": {
+      "matches_upstream": true,
+      "sha256": "ec1e9f14679e974427b4a95a058eef73dfa6daebe6f734ec37899f51441da29a"
+    },
+    "skillhub/config.py": {
+      "matches_upstream": true,
+      "sha256": "0b42544434a5e85ff27557f62df6f2637c4e4a3ddb1bf950f233e7c4fb61f94f"
+    },
+    "skillhub/mcp.py": {
+      "matches_upstream": true,
+      "sha256": "a90971d6898fe2933e3231f285d2a83e79a5cfd969457ee9a9cd8af6465dc6d1"
+    },
+    "skillhub/scan.py": {
+      "matches_upstream": true,
+      "sha256": "29299dd11daa1d4ef81ce454f1c47367b48a9364487157c0fa722426b10e896c"
+    },
+    "skillhub/store.py": {
+      "matches_upstream": true,
+      "sha256": "32a50f7f2524147836013225d7f7609b07f4f95192124c28f62a80298df87ac1"
+    },
+    "skillhub/gui.html": {
+      "matches_upstream": true,
+      "sha256": "9e24ff24d16190175d5a0ae51e296fcb5dc50cec83dd8efdcdba29e5e6c8f1e2"
+    },
+    "skillhub/webgui.py": {
+      "matches_upstream": true,
+      "sha256": "0a56ac707094bcf375b1506af43551cca2f9a70b81d197e31913461cd4849cf0"
+    }
+  }
+}

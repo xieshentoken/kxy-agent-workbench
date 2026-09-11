@@ -1,0 +1,10 @@
+PASS eight component categories and legacy analyzer appear without duplicates
+PASS category groups switch between newest date and name order
+PASS missing resources inside blackboxes are visible and block insertion
+PASS UI saves nested blackbox; details do not apply; repeated insertion remaps IDs and undo removes one insertion
+PASS saved presets survive reload and remain reachable at 1280x720
+page.waitForFunction: Timeout 1000ms exceeded.
+    at /Users/<localuser>/Documents/Codex/DeeSear workflow/kxy/acceptance/v8_independent_browser.cjs:60:64 {
+  log: [],
+  name: 'TimeoutError'
+}

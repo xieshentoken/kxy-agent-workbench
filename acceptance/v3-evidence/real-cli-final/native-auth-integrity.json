@@ -1,0 +1,11 @@
+{
+  "before": {
+    "config": "64d689a27690c0e6d92e39611f287e1e53db719aa1be12390db58537c10d09eb",
+    "auth": "a01f8a7fd01c6dca032e669bc5fa4d19039bdcbafe5842872dfaee3a49b07a0b"
+  },
+  "after": {
+    "config": "64d689a27690c0e6d92e39611f287e1e53db719aa1be12390db58537c10d09eb",
+    "auth": "a01f8a7fd01c6dca032e669bc5fa4d19039bdcbafe5842872dfaee3a49b07a0b"
+  },
+  "unchanged": true
+}

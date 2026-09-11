@@ -1,0 +1,18 @@
+{
+  "passed": [
+    "login mode automatically discovers selected Agent models and exact effort options",
+    "model changes reset effort; unknown capability has only explicit CLI default",
+    "same model creates independent alias and effort configurations",
+    "editing a saved login configuration successfully persists alias and exact effort",
+    "late discovery response cannot replace another Agent model or effort",
+    "empty model catalog explains unavailability and prevents creating invented login entry",
+    "API mode retains explicit model input and connection test",
+    "Inspector configured analyzer atomically binds CLI model reference and chosen exact effort",
+    "Inspector effort override stays within model capabilities and does not mutate global entry",
+    "saved workflow reload preserves exact analyzer selection",
+    "deleted model remains explicitly unresolved instead of switching to another analyzer",
+    "model configuration is accessible at 1280x720",
+    "no browser runtime errors"
+  ],
+  "errors": []
+}

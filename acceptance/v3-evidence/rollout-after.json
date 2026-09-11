@@ -1,0 +1,109 @@
+{
+  "url": "http://127.0.0.1:8710",
+  "health": {
+    "ok": true,
+    "app": "kxy",
+    "lfx": "1.12.0",
+    "lfx_error": null
+  },
+  "skillhub": {
+    "upstream": {
+      "available": true,
+      "commit": "531ca63d3740fd2ac6f06eee531c1874ada01db2",
+      "version": "0.1.0",
+      "message": null
+    },
+    "central_store": {
+      "available": true,
+      "path": "skillhub",
+      "index_valid": true,
+      "skill_count": 0
+    },
+    "mcp_support": {
+      "codex": {
+        "supported": true,
+        "reason": ""
+      },
+      "claude": {
+        "supported": true,
+        "reason": ""
+      },
+      "opencode": {
+        "supported": true,
+        "reason": ""
+      },
+      "pi": {
+        "supported": false,
+        "reason": "pi host-core servers format is not verified for this KXY release"
+      },
+      "hermes": {
+        "supported": false,
+        "reason": "Hermes MCP target support is not verified"
+      },
+      "workbuddy": {
+        "supported": true,
+        "reason": ""
+      },
+      "deepseek": {
+        "supported": false,
+        "reason": "DeepSeek headless MCP target support is not verified"
+      }
+    },
+    "agents": {
+      "codex": {
+        "supported": true,
+        "reason": ""
+      },
+      "claude": {
+        "supported": true,
+        "reason": ""
+      },
+      "opencode": {
+        "supported": true,
+        "reason": ""
+      },
+      "pi": {
+        "supported": false,
+        "reason": "pi host-core servers format is not verified for this KXY release"
+      },
+      "hermes": {
+        "supported": false,
+        "reason": "Hermes MCP target support is not verified"
+      },
+      "workbuddy": {
+        "supported": true,
+        "reason": ""
+      },
+      "deepseek": {
+        "supported": false,
+        "reason": "DeepSeek headless MCP target support is not verified"
+      }
+    }
+  },
+  "counts": {
+    "files": 1,
+    "skills": 2,
+    "workflows": 0,
+    "runs": 3,
+    "credentials": 1,
+    "agent_models": 70
+  },
+  "previous_counts_preserved": true,
+  "legacy_settings_preserved": true,
+  "settings": {
+    "palette": "mist",
+    "accent": "#ff6714",
+    "canvas": "#c0d9f2",
+    "font": "serif",
+    "custom_font": "SF Pro Display",
+    "text_font": "",
+    "code_font": "",
+    "font_size": 14,
+    "code_font_size": 13,
+    "background_image": "",
+    "motion_enabled": true,
+    "undo_limit": 5
+  },
+  "local_font_families": 872,
+  "candidate_html_served": true
+}

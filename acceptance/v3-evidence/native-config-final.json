@@ -1,0 +1,32 @@
+{
+  "codex": {
+    "exists": true,
+    "sha256": "64d689a27690c0e6d92e39611f287e1e53db719aa1be12390db58537c10d09eb",
+    "unchanged": false
+  },
+  "claude": {
+    "exists": true,
+    "sha256": "20ce80ea0d066ed37d5c3bc58aaef235577bdccaa38e4e80fdb8ff0c5e806995",
+    "unchanged": true
+  },
+  "opencode": {
+    "exists": false,
+    "sha256": null,
+    "unchanged": true
+  },
+  "opencode_jsonc": {
+    "exists": true,
+    "sha256": "e54d88d5d07b93e5bf410cf0e462e497a058c94509d71f418b26126f175a80f7",
+    "unchanged": true
+  },
+  "workbuddy": {
+    "exists": true,
+    "sha256": "e0bc3b7d9ba4f6b25e6b1a9917403ec4cdb6bf4afca0a0aab524663c4b1be42b",
+    "unchanged": true
+  },
+  "hermes": {
+    "exists": true,
+    "sha256": "b31c4e2b638ee81425a771661738a4827987697cfa2c3716378c15a7580e1bd0",
+    "unchanged": true
+  }
+}

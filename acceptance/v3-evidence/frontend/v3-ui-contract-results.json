@@ -1,0 +1,42 @@
+{
+  "base": "http://127.0.0.1:8713",
+  "passed": [
+    "Claude-origin Skill imported through UI with ready SkillHub metadata",
+    "synthetic stdio MCP discovered and imported as metadata-only opt-in",
+    "analyzer Skill checkbox calls SkillHub mount and receives ready response",
+    "analyzer MCP checkbox is persisted in exported workflow as mcp_ids",
+    "no model or MCP execution requests and no browser runtime errors"
+  ],
+  "errors": [],
+  "imported_skill": {
+    "id": "013e85ea2ea448a08154995e67ffd40a",
+    "name": "foreign-claude-skill",
+    "source_agent": "claude",
+    "skillhub_status": "ready"
+  },
+  "discovered_mcp": {
+    "id": "synthetic-stdio",
+    "name": "Synthetic UI MCP",
+    "transport": "stdio",
+    "supported": true
+  },
+  "mount": {
+    "status": "ready",
+    "skills": [
+      {
+        "skill_id": "013e85ea2ea448a08154995e67ffd40a",
+        "status": "ready",
+        "cross_agent": true
+      }
+    ]
+  },
+  "exported_analyzer": {
+    "skill_ids": [
+      "013e85ea2ea448a08154995e67ffd40a"
+    ],
+    "mcp_ids": [
+      "synthetic-stdio"
+    ]
+  },
+  "execution_requests": []
+}

@@ -1,0 +1,17 @@
+
+> kxy-canvas@0.1.0 build
+> tsc -b && vite build --outDir /private/tmp/kxy-package-20260908/frontend-dist
+
+vite v6.4.3 building for production...
+
+(!) outDir /private/tmp/kxy-package-20260908/frontend-dist is not inside project root and will not be emptied.
+Use --emptyOutDir to override.
+
+transforming...
+✓ 1743 modules transformed.
+rendering chunks...
+computing gzip size...
+../../../../../../../private/tmp/kxy-package-20260908/frontend-dist/index.html                   0.76 kB │ gzip:   0.50 kB
+../../../../../../../private/tmp/kxy-package-20260908/frontend-dist/assets/index-DMWTZgsZ.css   57.20 kB │ gzip:  11.80 kB
+../../../../../../../private/tmp/kxy-package-20260908/frontend-dist/assets/index-Bokv2bTC.js   459.11 kB │ gzip: 144.82 kB
+✓ built in 1.25s

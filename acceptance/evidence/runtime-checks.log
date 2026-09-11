@@ -1,0 +1,19 @@
+test_argv_maps_effort_model_images_without_shell (__main__.RuntimeChecks.test_argv_maps_effort_model_images_without_shell) ... ok
+test_granted_folder_symlink_replacement_is_rejected (__main__.RuntimeChecks.test_granted_folder_symlink_replacement_is_rejected) ... /Users/<localuser>/Documents/Codex/DeeSear workflow/kxy/.venv/lib/python3.12/site-packages/passlib/utils/__init__.py:854: DeprecationWarning: 'crypt' is deprecated and slated for removal in Python 3.13
+  from crypt import crypt as _crypt
+ok
+test_keychain_store_does_not_persist_secret_in_sqlite (__main__.RuntimeChecks.test_keychain_store_does_not_persist_secret_in_sqlite) ... ok
+test_nonzero_and_log_only_are_failures (__main__.RuntimeChecks.test_nonzero_and_log_only_are_failures) ... ok
+test_oversized_final_answer_fails_instead_of_silent_truncation (__main__.RuntimeChecks.test_oversized_final_answer_fails_instead_of_silent_truncation) ... ok
+test_real_graph_with_fixture_cli_output_and_grant (__main__.RuntimeChecks.test_real_graph_with_fixture_cli_output_and_grant) ... ok
+test_restart_marks_unfinished_run_and_nodes_interrupted (__main__.RuntimeChecks.test_restart_marks_unfinished_run_and_nodes_interrupted) ... ok
+test_secret_filter_keeps_token_budget (__main__.RuntimeChecks.test_secret_filter_keeps_token_budget) ... ok
+test_snapshot_survives_skill_removal_before_run (__main__.RuntimeChecks.test_snapshot_survives_skill_removal_before_run) ... ok
+test_timeout_and_cancel_stop_processes (__main__.RuntimeChecks.test_timeout_and_cancel_stop_processes) ... ok
+test_two_containers_same_grant_and_active_branch_only (__main__.RuntimeChecks.test_two_containers_same_grant_and_active_branch_only) ... ok
+test_zip_traversal_and_total_expansion_rejected (__main__.RuntimeChecks.test_zip_traversal_and_total_expansion_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 7.445s
+
+OK

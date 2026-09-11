@@ -1,0 +1,9 @@
+test_model_identity_and_cli_id_payload_contract (__main__.ConfigV2.test_model_identity_and_cli_id_payload_contract) ... ok
+test_documented_native_model_and_effort_parsers (__main__.ConfigV2.test_documented_native_model_and_effort_parsers) ... ok
+test_hermes_reader_whitelists_model_fields_only (__main__.ConfigV2.test_hermes_reader_whitelists_model_fields_only) ... ok
+test_native_auth_references_are_local_and_explicit_binding_wins (__main__.ConfigV2.test_native_auth_references_are_local_and_explicit_binding_wins) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.037s
+
+OK

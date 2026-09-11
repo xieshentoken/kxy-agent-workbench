@@ -1,0 +1,18 @@
+{
+  "files": [
+    "6493f516ca7c160510c0feba51bd8c64440e11b803f68ab76277e72ccc7d06bf"
+  ],
+  "runs": [
+    "9eac86c718ae40b6a8507b4ba554f6b0"
+  ],
+  "workflows": [],
+  "skills": [],
+  "credentials": [],
+  "run_statuses": [
+    [
+      "9eac86c718ae40b6a8507b4ba554f6b0",
+      "succeeded"
+    ]
+  ],
+  "backup": "/Users/<localuser>/Documents/Codex/DeeSear workflow/kxy/.backups/pre-v2-launch-20260906-132933"
+}

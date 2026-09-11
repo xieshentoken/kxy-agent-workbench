@@ -1,0 +1,18 @@
+{
+  "health": {
+    "ok": true,
+    "app": "kxy",
+    "lfx": "1.12.0",
+    "lfx_error": null
+  },
+  "original_tables_unchanged": 17,
+  "original_files_unchanged": 1911,
+  "served_hashes": {
+    "index.html": "1014af3dfd31e3aea9efcf7264ef0867ea6ff69527bde51b70b8043924d62486",
+    "assets/index-DEDdMNM4.css": "7c4a160541febc125cc3c4f18df70f2e98b14614a9858b1ab02894290958c4d9",
+    "assets/index-8BKdnQqQ.js": "0e0563466a5235f52b2e2436ce80d15ceede2568991f430f6f4e2549046058d6"
+  },
+  "server_pid": 13335,
+  "url": "http://127.0.0.1:8710/",
+  "loop_table_exists": true
+}

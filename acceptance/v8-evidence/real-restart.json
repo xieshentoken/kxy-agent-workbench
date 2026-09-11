@@ -1,0 +1,11 @@
+{
+  "run_id": "ec6d7bfeae8d41bd888a61722d13c732",
+  "real_process_restart": true,
+  "original_snapshot_preserved": true,
+  "human_approval_required_after_restart": true,
+  "upstream_calls": 1,
+  "downstream_calls": 1,
+  "attempts": 2,
+  "status": "PASS",
+  "real_inference": false
+}

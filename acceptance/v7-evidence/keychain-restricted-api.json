@@ -1,0 +1,5 @@
+{
+  "status": 422,
+  "detail": "kxy 服务启动环境受限，macOS 拒绝了 Keychain 访问（100001 / Operation not permitted）。请从本机 Terminal 启动 ./start.sh 或 Start.command。不要反复解锁钥匙串。",
+  "credential_rows": 0
+}

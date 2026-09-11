@@ -1,0 +1,12 @@
+AssertionError [ERR_ASSERTION]: late initial refresh discarded newly created Agent model
+
+0 !== 1
+
+    at /Users/<localuser>/Documents/Codex/DeeSear workflow/kxy/acceptance/v6_browser_refresh_race.cjs:34:11 {
+  generatedMessage: false,
+  code: 'ERR_ASSERTION',
+  actual: 0,
+  expected: 1,
+  operator: 'strictEqual',
+  diff: 'simple'
+}

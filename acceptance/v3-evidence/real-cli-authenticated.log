@@ -1,0 +1,9 @@
+ea0791eb0d5d4136954573cbd92dc573 pending
+ea0791eb0d5d4136954573cbd92dc573 running
+ea0791eb0d5d4136954573cbd92dc573 succeeded
+Evidence: /var/folders/p4/xpgbyw151b1c6gj3g__0dv_w0000gp/T/kxy-v3-real-i8cifc1g
+Traceback (most recent call last):
+  File "/Users/<localuser>/Documents/Codex/DeeSear workflow/kxy/acceptance/v3_real_cli_smoke.py", line 89, in <module>
+    assert marker in artifact_text, marker
+           ^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: KXY_MCP_TOOL_CONFIRMED_7391

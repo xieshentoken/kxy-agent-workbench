@@ -1,0 +1,13 @@
+PASS standalone service editor fetches, searches, selects and manually extends model catalog
+PASS service save persists selected catalog and clears password input
+PASS blank-key service edit preserves Keychain reference and existing model list
+PASS service editor remains reachable at 1440x900 and 1280x720
+PASS two Agents reuse one saved service through visible model selectors
+PASS incompatible Agent protocol is disabled in service dropdown
+PASS auto and JSON controls do not rewrite prompt; workspace hints are visibly inserted
+PASS reply and file settings persist; portable export omits local grant and key
+PASS browser-configured prompt reaches synthetic CLI byte-for-byte
+PASS container shows real text and exclusions while authorized directory receives only actual PDF
+PASS each selected container shows its own reply instead of the last container
+PASS long nested path resolves the correct container despite sharing a node ID with the parent canvas
+PASS no browser runtime errors

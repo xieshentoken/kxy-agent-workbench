@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "catalog_count": 7,
+  "model": "gpt-5.6-luna",
+  "effort": "max",
+  "credential_bound": false,
+  "model_inference_run": false,
+  "errors": []
+}

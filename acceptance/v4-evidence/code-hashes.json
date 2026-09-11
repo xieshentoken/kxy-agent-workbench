@@ -1,0 +1,15 @@
+{
+  "backend/app.py": "a9c602abfadd8922baf32f794cd9191110d37f007f72600dac9f39464e733a33",
+  "frontend/src/App.tsx": "9cc00c6c67306b9a3072a94f90499cba0aa716d8665a9b6cfdda66af87ebdd0a",
+  "frontend/src/v2.tsx": "ba9cacf398e52f6004a78987fb1634243bef8a2d10f9953845b455aed2e8b2f5",
+  "frontend/src/v3.tsx": "638453b8e6b960af87ba7d01ffa9f34522381863cef65bd22316c222f4f698bc",
+  "frontend/src/styles.css": "a66dcd238ff72a7a256f410a1475ebeaf9fcceb6a8ab0bd6ea2767a6407f51c6",
+  "README.md": "c0709513a5690c2fec9bcda8b68743027ad1b1a176110a0f687d36b5ba67d24c",
+  "docs/V4_PLAN.md": "b5111df2f3f8d559e119de004b45a4c30d067db643fd9b900349cf9d1f6136de",
+  "acceptance/V4_REPORT.md": "1182c5a91d9e1b167e3050929f480714bcb1c451e6d8352590d01c2cb1cba9ff",
+  "acceptance/v4_supervisor_checks.py": "6d7790907cb826dca727115eed0a899d848096c2138ffa706b73489ec9356c6d",
+  "acceptance/v4_independent_browser.cjs": "d9007e7c55573a16f92207993e6c5b401cd382637981da3c0c1b65be1b21c15a",
+  "frontend/dist-v4/index.html": "c16e6489e3f9642f306657297a59dfda9f2591c727f122c25aa180538dc0c39c",
+  "frontend/dist-v4/assets/index-DMWTZgsZ.css": "ae1ffb896f51e783c7a1e71c8994c12f3d851c714e8b014d7552e382cf7d70ba",
+  "frontend/dist-v4/assets/index-Bokv2bTC.js": "5ce5fb309810ddb63b74cc70527b081c63a45e4f6de8741ab683edcabc2e18f5"
+}

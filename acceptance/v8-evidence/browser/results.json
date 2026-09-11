@@ -1,0 +1,15 @@
+{
+  "passed": [
+    "eight component categories and legacy analyzer appear without duplicates",
+    "category groups switch between newest date and name order",
+    "missing resources inside blackboxes are visible and block insertion",
+    "UI saves nested blackbox; details do not apply; repeated insertion remaps IDs and undo removes one insertion",
+    "saved presets survive reload and remain reachable at 1280x720",
+    "30 equals old maximum, 100 uses coefficient 3, grid alignment and reduced motion retained, zero persists",
+    "UI restores original run snapshot; completed analyzer called once, failed analyzer retried, two attempts audited",
+    "no browser runtime errors"
+  ],
+  "errors": [],
+  "realInference": false,
+  "runId": "ad77767bfc9949a08cff293abb608dc9"
+}

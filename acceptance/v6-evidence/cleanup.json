@@ -1,0 +1,13 @@
+{
+  "formal_pid": 20534,
+  "formal_url": "http://127.0.0.1:8710/",
+  "listening": {
+    "8710": true,
+    "8720": false,
+    "8721": false,
+    "8722": false,
+    "60071": false
+  },
+  "test_fixture_stopped": true,
+  "catalog_stopped": true
+}

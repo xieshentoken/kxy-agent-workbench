@@ -1,0 +1,15 @@
+{
+  "formal_pid": 26232,
+  "listening": {
+    "8710": true,
+    "8720": false,
+    "8721": false,
+    "8722": false,
+    "8723": false,
+    "54042": false,
+    "55112": false
+  },
+  "browser_keys_deleted_and_verified_absent": 2,
+  "additional_fixture_cleanup_verified": 1,
+  "manual_cleanup_reason": "Uvicorn re-raised SIGTERM before outer finally; moved fixture cleanup into lifespan and verified"
+}

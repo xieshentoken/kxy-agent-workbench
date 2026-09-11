@@ -1,0 +1,12 @@
+[
+  {
+    "ref": "managed-cbd49d35a5244dcc8645c02c58db38ff",
+    "deleted": true,
+    "absent_after": true
+  },
+  {
+    "ref": "managed-468e6531a3b74eceabd44adf55785924",
+    "deleted": true,
+    "absent_after": true
+  }
+]

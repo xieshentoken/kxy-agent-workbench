@@ -1,0 +1,14 @@
+test_01_default_and_zero_are_distinct (acceptance.v7_supervisor_checks.V7Checks.test_01_default_and_zero_are_distinct) ... ok
+test_02_range_and_null_rejected (acceptance.v7_supervisor_checks.V7Checks.test_02_range_and_null_rejected) ... ok
+test_03_partial_legacy_update_preserves_strength (acceptance.v7_supervisor_checks.V7Checks.test_03_partial_legacy_update_preserves_strength) ... ok
+test_04_legacy_string_zero_and_bad_value (acceptance.v7_supervisor_checks.V7Checks.test_04_legacy_string_zero_and_bad_value) ... ok
+test_05_new_presets_never_overwrite_by_embedded_config_id (acceptance.v7_supervisor_checks.V7Checks.test_05_new_presets_never_overwrite_by_embedded_config_id) ... ok
+test_06_delete_one_preserves_other_preset (acceptance.v7_supervisor_checks.V7Checks.test_06_delete_one_preserves_other_preset) ... ok
+test_07_keychain_failure_cannot_create_service_record (acceptance.v7_supervisor_checks.V7Checks.test_07_keychain_failure_cannot_create_service_record) ... ok
+test_08_preset_secrets_still_rejected (acceptance.v7_supervisor_checks.V7Checks.test_08_preset_secrets_still_rejected) ... ok
+test_09_successful_keychain_metadata_is_not_a_permission_error (acceptance.v7_supervisor_checks.V7Checks.test_09_successful_keychain_metadata_is_not_a_permission_error) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.078s
+
+OK

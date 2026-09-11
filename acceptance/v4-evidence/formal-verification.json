@@ -1,0 +1,39 @@
+{
+  "health": {
+    "ok": true,
+    "app": "kxy",
+    "lfx": "1.12.0",
+    "lfx_error": null
+  },
+  "files": {
+    "unchanged": true,
+    "sha256": "006b5fb092fb4c5625c4d4f2c513aa80bae4e7a82dbd4d015d5eb94eb8bb0e61",
+    "count": 1
+  },
+  "skills": {
+    "unchanged": true,
+    "sha256": "1bfd49f2ed20b20c8bc9566ca475fda34496ba7d94690e48d91ca92d5a6e8864",
+    "count": 2
+  },
+  "workflows": {
+    "unchanged": true,
+    "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "count": 0
+  },
+  "runs": {
+    "unchanged": true,
+    "sha256": "f7d5f318c91e4b4d17ab4550b22bce89c9bfba4d27ed6bf5b891884fb1a5730f",
+    "count": 3
+  },
+  "settings": {
+    "unchanged": true,
+    "sha256": "66b180be529bff9dcf53ed3f53186bab258a205988494b6a852123120659a4d3",
+    "count": 12
+  },
+  "assets": {
+    "/assets/index-Bokv2bTC.js": "5ce5fb309810ddb63b74cc70527b081c63a45e4f6de8741ab683edcabc2e18f5",
+    "/assets/index-DMWTZgsZ.css": "ae1ffb896f51e783c7a1e71c8994c12f3d851c714e8b014d7552e382cf7d70ba"
+  },
+  "v4_credential_test_route": true,
+  "historical_package_unchanged": true
+}

@@ -1,0 +1,42 @@
+{
+  "codex": {
+    "exists": true,
+    "sha256": "8850332d66187fb096cdca3dde851e75165a0375abd15e5c8640657e286b84f4",
+    "server_count": 3,
+    "entry_field_sets": [
+      "args,command,cwd,enabled",
+      "args,command,env",
+      "args,command,env,startup_timeout_sec"
+    ]
+  },
+  "claude": {
+    "exists": true,
+    "sha256": "20ce80ea0d066ed37d5c3bc58aaef235577bdccaa38e4e80fdb8ff0c5e806995",
+    "server_count": 0,
+    "entry_field_sets": []
+  },
+  "opencode": {
+    "exists": false
+  },
+  "opencode_jsonc": {
+    "exists": true,
+    "sha256": "e54d88d5d07b93e5bf410cf0e462e497a058c94509d71f418b26126f175a80f7",
+    "server_count": 0,
+    "entry_field_sets": []
+  },
+  "workbuddy": {
+    "exists": true,
+    "sha256": "e0bc3b7d9ba4f6b25e6b1a9917403ec4cdb6bf4afca0a0aab524663c4b1be42b",
+    "server_count": 7,
+    "entry_field_sets": [
+      "args,command,disabled",
+      "disabled,headers,url",
+      "headers,url"
+    ]
+  },
+  "hermes": {
+    "exists": true,
+    "sha256": "b31c4e2b638ee81425a771661738a4827987697cfa2c3716378c15a7580e1bd0",
+    "parser": "requires_native_parser"
+  }
+}

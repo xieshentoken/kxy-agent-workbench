@@ -1,0 +1,4 @@
+{
+  "passed": true,
+  "scenario": "late initial resource snapshot does not overwrite newly saved service or Agent model"
+}

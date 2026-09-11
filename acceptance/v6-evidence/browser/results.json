@@ -1,0 +1,22 @@
+{
+  "passed": [
+    "standalone service editor fetches, searches, selects and manually extends model catalog",
+    "service save persists selected catalog and clears password input",
+    "blank-key service edit preserves Keychain reference and existing model list",
+    "service editor remains reachable at 1440x900 and 1280x720",
+    "two Agents reuse one saved service through visible model selectors",
+    "incompatible Agent protocol is disabled in service dropdown",
+    "auto and JSON controls do not rewrite prompt; workspace hints are visibly inserted",
+    "reply and file settings persist; portable export omits local grant and key",
+    "browser-configured prompt reaches synthetic CLI byte-for-byte",
+    "container shows real text and exclusions while authorized directory receives only actual PDF",
+    "each selected container shows its own reply instead of the last container",
+    "long nested path resolves the correct container despite sharing a node ID with the parent canvas",
+    "no browser runtime errors"
+  ],
+  "errors": [],
+  "runId": "1614b1101fb545d8a6a037e904c71e4e",
+  "multiContainerRunId": "52f4945666904923af263c919660391c",
+  "serviceId": "12106028f87c46be9daca898f58fd8f2",
+  "realInference": false
+}

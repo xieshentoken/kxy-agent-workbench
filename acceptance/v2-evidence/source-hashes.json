@@ -1,0 +1,9 @@
+{
+  "backend/app.py": "9d9e03fa0c846cbf7dd7b8da0736c455b61b8438ee3ec6b71e53b642b2566f84",
+  "backend/agent_config.py": "3aaeb93bc35d1e52d336db590d1add4c43d87d45020d0d40e3ec50e444a819e4",
+  "frontend/src/App.tsx": "1cb5426e9cf37dca4e42e36d28edf895c3f9fd764f531376c20c82d4054a09a2",
+  "frontend/src/v2.tsx": "dcc46fb874dbc284e3b98cbe38e54f72b5138194b61bce7664cbfdbc06bcd147",
+  "frontend/dist/index.html": "6a5f571735b14f56954e209f954d1d2e91ada81e7f0013ebddfcbccbcf62fdf8",
+  "frontend/dist/assets/index-Da8a2-mw.css": "480e8697b0d3b9d7b294c2687a103fe6d6a29e408afb0186a5c5601f6f1721a8",
+  "frontend/dist/assets/index-CIrT2iT6.js": "4b66d4023f7c321535b7f7727bfac8d0c2c773252363df0be32763373f912b35"
+}

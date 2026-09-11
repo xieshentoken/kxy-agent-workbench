@@ -1,0 +1,18 @@
+test_01_old_container_keeps_existing_files (acceptance.v4_supervisor_checks.V4Checks.test_01_old_container_keeps_existing_files) ... ok
+test_02_container_text_only_changes_real_files (acceptance.v4_supervisor_checks.V4Checks.test_02_container_text_only_changes_real_files) ... ok
+test_04_schema_mismatch_fails_run (acceptance.v4_supervisor_checks.V4Checks.test_04_schema_mismatch_fails_run) ... ok
+test_05_plain_text_and_legacy_json (acceptance.v4_supervisor_checks.V4Checks.test_05_plain_text_and_legacy_json) ... ok
+test_06_invalid_formats_and_remote_schema_rejected (acceptance.v4_supervisor_checks.V4Checks.test_06_invalid_formats_and_remote_schema_rejected) ... ok
+test_07_api_test_headers_and_version_path (acceptance.v4_supervisor_checks.V4Checks.test_07_api_test_headers_and_version_path) ... ok
+test_08_api_errors_do_not_leak_key_or_follow_redirect (acceptance.v4_supervisor_checks.V4Checks.test_08_api_errors_do_not_leak_key_or_follow_redirect) ... ok
+test_09_api_cross_origin_blocked (acceptance.v4_supervisor_checks.V4Checks.test_09_api_cross_origin_blocked) ... ok
+test_10_custom_base_path_is_preserved (acceptance.v4_supervisor_checks.V4Checks.test_10_custom_base_path_is_preserved) ... ok
+test_11_saved_reference_and_invalid_body_do_not_echo_key (acceptance.v4_supervisor_checks.V4Checks.test_11_saved_reference_and_invalid_body_do_not_echo_key) ... ok
+test_12_slow_probe_keeps_health_responsive (acceptance.v4_supervisor_checks.V4Checks.test_12_slow_probe_keeps_health_responsive) ... ok
+test_13_condition_preserves_json_content_type (acceptance.v4_supervisor_checks.V4Checks.test_13_condition_preserves_json_content_type) ... ok
+test_14_secrets_not_in_database (acceptance.v4_supervisor_checks.V4Checks.test_14_secrets_not_in_database) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 4.105s
+
+OK
