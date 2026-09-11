@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 620" font-family="-apple-system, 'PingFang SC', 'Helvetica Neue', Arial, sans-serif">
+<rect width="680" height="620" rx="16" fill="#FFFFFF" stroke="#DADCE0"/>
+<text x="26" y="42" font-size="19" font-weight="700" fill="#202124">kxy repo map, ELI5 edition</text>
+<text x="26" y="64" font-size="12" fill="#5F6368">Think of it as a local research restaurant: you order at the counter, the kitchen cooks, QC reports vouch for every dish</text>
+<rect x="20" y="86" width="308" height="96" rx="10" fill="#E8F0FE" stroke="#4285F4"/>
+<rect x="32" y="98" width="24" height="24" rx="6" fill="#4285F4"/>
+<text x="44" y="115" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle">F</text>
+<text x="66" y="109" font-size="12.5" font-weight="700" fill="#202124" font-family="Menlo, Consolas, monospace">frontend/</text>
+<text x="66" y="124" font-size="12.5" font-weight="600" fill="#202124">Dining room</text>
+<text x="34" y="152" font-size="11" fill="#3C4043">React + XYFlow canvas:</text>
+<text x="34" y="167" font-size="11" fill="#3C4043">drag nodes, connect, view results</text>
+<rect x="352" y="86" width="308" height="96" rx="10" fill="#E6F4EA" stroke="#34A853"/>
+<rect x="364" y="98" width="24" height="24" rx="6" fill="#34A853"/>
+<text x="376" y="115" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle">B</text>
+<text x="398" y="109" font-size="12.5" font-weight="700" fill="#202124" font-family="Menlo, Consolas, monospace">backend/</text>
+<text x="398" y="124" font-size="12.5" font-weight="600" fill="#202124">Kitchen</text>
+<text x="366" y="152" font-size="11" fill="#3C4043">FastAPI: files, Skill</text>
+<text x="366" y="167" font-size="11" fill="#3C4043">snapshots, runs and artifacts</text>
+<rect x="20" y="198" width="308" height="96" rx="10" fill="#FEF7E0" stroke="#F9AB00"/>
+<rect x="32" y="210" width="24" height="24" rx="6" fill="#F9AB00"/>
+<text x="44" y="227" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle">V</text>
+<text x="66" y="221" font-size="12.5" font-weight="700" fill="#202124" font-family="Menlo, Consolas, monospace">vendor/skillhub/</text>
+<text x="66" y="236" font-size="12.5" font-weight="600" fill="#202124">Bought-in engine</text>
+<text x="34" y="264" font-size="11" fill="#3C4043">Pinned MIT upstream, used</text>
+<text x="34" y="279" font-size="11" fill="#3C4043">via bounded bridges only</text>
+<rect x="352" y="198" width="308" height="96" rx="10" fill="#F3E8FD" stroke="#A142F4"/>
+<rect x="364" y="210" width="24" height="24" rx="6" fill="#A142F4"/>
+<text x="376" y="227" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle">A</text>
+<text x="398" y="221" font-size="12.5" font-weight="700" fill="#202124" font-family="Menlo, Consolas, monospace">acceptance/</text>
+<text x="398" y="236" font-size="12.5" font-weight="600" fill="#202124">QC reports</text>
+<text x="366" y="264" font-size="11" fill="#3C4043">Automated acceptance evidence</text>
+<text x="366" y="279" font-size="11" fill="#3C4043">for every version</text>
+<rect x="20" y="310" width="308" height="96" rx="10" fill="#F1F3F4" stroke="#9AA0A6"/>
+<rect x="32" y="322" width="24" height="24" rx="6" fill="#9AA0A6"/>
+<text x="44" y="339" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle">D</text>
+<text x="66" y="333" font-size="12.5" font-weight="700" fill="#202124" font-family="Menlo, Consolas, monospace">docs/</text>
+<text x="66" y="348" font-size="12.5" font-weight="600" fill="#202124">Blueprints</text>
+<text x="34" y="376" font-size="11" fill="#3C4043">Design and</text>
+<text x="34" y="391" font-size="11" fill="#3C4043">upgrade plan notes</text>
+<rect x="352" y="310" width="308" height="96" rx="10" fill="#FCE8E6" stroke="#EA4335"/>
+<rect x="364" y="322" width="24" height="24" rx="6" fill="#EA4335"/>
+<text x="376" y="339" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle">L</text>
+<text x="398" y="333" font-size="12.5" font-weight="700" fill="#202124" font-family="Menlo, Consolas, monospace">branding/</text>
+<text x="398" y="348" font-size="12.5" font-weight="600" fill="#202124">Shop sign</text>
+<text x="366" y="376" font-size="11" fill="#3C4043">Swappable logo (png</text>
+<text x="366" y="391" font-size="11" fill="#3C4043">/ webp / svg)</text>
+<rect x="20" y="422" width="308" height="96" rx="10" fill="#E0F7FA" stroke="#00ACC1"/>
+<rect x="32" y="434" width="24" height="24" rx="6" fill="#00ACC1"/>
+<text x="44" y="451" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle">S</text>
+<text x="66" y="445" font-size="12.5" font-weight="700" fill="#202124" font-family="Menlo, Consolas, monospace">setup.sh · start.sh</text>
+<text x="66" y="460" font-size="12.5" font-weight="600" fill="#202124">Open-for-business buttons</text>
+<text x="34" y="488" font-size="11" fill="#3C4043">One-shot install / launch</text>
+<text x="34" y="503" font-size="11" fill="#3C4043">(also .command double-click versions)</text>
+<rect x="352" y="422" width="308" height="96" rx="10" fill="#FFF8E1" stroke="#F9AB00" stroke-dasharray="5,3"/>
+<rect x="364" y="434" width="24" height="24" rx="6" fill="#F9AB00"/>
+<text x="376" y="451" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle">P</text>
+<text x="398" y="445" font-size="12.5" font-weight="700" fill="#202124" font-family="Menlo, Consolas, monospace">data/</text>
+<text x="398" y="460" font-size="12.5" font-weight="600" fill="#202124">Pantry</text>
+<text x="366" y="488" font-size="11" fill="#3C4043">Runtime data: stays on your</text>
+<text x="366" y="503" font-size="11" fill="#3C4043">machine, not in the repo</text>
+<rect x="20" y="540" width="640" height="34" rx="8" fill="#F8F9FA" stroke="#DADCE0"/>
+<text x="32" y="561" font-size="11" fill="#5F6368">Not in the repo (generated locally): data/ · .venv/ · node_modules/ · frontend/dist* — built by setup.sh on first run</text>
+</svg>

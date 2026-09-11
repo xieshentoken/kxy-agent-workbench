@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 620" font-family="-apple-system, 'PingFang SC', 'Helvetica Neue', Arial, sans-serif">
+<rect width="680" height="620" rx="16" fill="#FFFFFF" stroke="#DADCE0"/>
+<text x="26" y="42" font-size="19" font-weight="700" fill="#202124">kxy 仓库地图 · ELI5 版</text>
+<text x="26" y="64" font-size="12" fill="#5F6368">把它想象成一家「本机研究餐厅」——你在点餐台操作，厨房干活，质检报告保证每道菜合格</text>
+<rect x="20" y="86" width="308" height="96" rx="10" fill="#E8F0FE" stroke="#4285F4"/>
+<rect x="32" y="98" width="24" height="24" rx="6" fill="#4285F4"/>
+<text x="44" y="115" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle">F</text>
+<text x="66" y="109" font-size="12.5" font-weight="700" fill="#202124" font-family="Menlo, Consolas, monospace">frontend/</text>
+<text x="66" y="124" font-size="12.5" font-weight="600" fill="#202124">点餐台</text>
+<text x="34" y="152" font-size="11" fill="#3C4043">React +</text>
+<text x="34" y="167" font-size="11" fill="#3C4043">XYFlow 画布：拖节点、连线、看结果</text>
+<rect x="352" y="86" width="308" height="96" rx="10" fill="#E6F4EA" stroke="#34A853"/>
+<rect x="364" y="98" width="24" height="24" rx="6" fill="#34A853"/>
+<text x="376" y="115" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle">B</text>
+<text x="398" y="109" font-size="12.5" font-weight="700" fill="#202124" font-family="Menlo, Consolas, monospace">backend/</text>
+<text x="398" y="124" font-size="12.5" font-weight="600" fill="#202124">厨房</text>
+<text x="366" y="152" font-size="11" fill="#3C4043">FastAPI：管文件、Skill</text>
+<text x="366" y="167" font-size="11" fill="#3C4043">快照、运行流程与产物</text>
+<rect x="20" y="198" width="308" height="96" rx="10" fill="#FEF7E0" stroke="#F9AB00"/>
+<rect x="32" y="210" width="24" height="24" rx="6" fill="#F9AB00"/>
+<text x="44" y="227" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle">V</text>
+<text x="66" y="221" font-size="12.5" font-weight="700" fill="#202124" font-family="Menlo, Consolas, monospace">vendor/skillhub/</text>
+<text x="66" y="236" font-size="12.5" font-weight="600" fill="#202124">外购引擎</text>
+<text x="34" y="264" font-size="11" fill="#3C4043">固定版本的</text>
+<text x="34" y="279" font-size="11" fill="#3C4043">MIT 上游，只经受限桥接调用</text>
+<rect x="352" y="198" width="308" height="96" rx="10" fill="#F3E8FD" stroke="#A142F4"/>
+<rect x="364" y="210" width="24" height="24" rx="6" fill="#A142F4"/>
+<text x="376" y="227" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle">A</text>
+<text x="398" y="221" font-size="12.5" font-weight="700" fill="#202124" font-family="Menlo, Consolas, monospace">acceptance/</text>
+<text x="398" y="236" font-size="12.5" font-weight="600" fill="#202124">质检报告</text>
+<text x="366" y="264" font-size="11" fill="#3C4043"></text>
+<text x="366" y="279" font-size="11" fill="#3C4043">每个版本功能的自动化验收证据（含日志）</text>
+<rect x="20" y="310" width="308" height="96" rx="10" fill="#F1F3F4" stroke="#9AA0A6"/>
+<rect x="32" y="322" width="24" height="24" rx="6" fill="#9AA0A6"/>
+<text x="44" y="339" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle">D</text>
+<text x="66" y="333" font-size="12.5" font-weight="700" fill="#202124" font-family="Menlo, Consolas, monospace">docs/</text>
+<text x="66" y="348" font-size="12.5" font-weight="600" fill="#202124">设计图纸</text>
+<text x="34" y="376" font-size="11" fill="#3C4043"></text>
+<text x="34" y="391" font-size="11" fill="#3C4043">实现与升级方案笔记</text>
+<rect x="352" y="310" width="308" height="96" rx="10" fill="#FCE8E6" stroke="#EA4335"/>
+<rect x="364" y="322" width="24" height="24" rx="6" fill="#EA4335"/>
+<text x="376" y="339" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle">L</text>
+<text x="398" y="333" font-size="12.5" font-weight="700" fill="#202124" font-family="Menlo, Consolas, monospace">branding/</text>
+<text x="398" y="348" font-size="12.5" font-weight="600" fill="#202124">店招</text>
+<text x="366" y="376" font-size="11" fill="#3C4043">可替换的 logo（png /</text>
+<text x="366" y="391" font-size="11" fill="#3C4043">webp / svg）</text>
+<rect x="20" y="422" width="308" height="96" rx="10" fill="#E0F7FA" stroke="#00ACC1"/>
+<rect x="32" y="434" width="24" height="24" rx="6" fill="#00ACC1"/>
+<text x="44" y="451" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle">S</text>
+<text x="66" y="445" font-size="12.5" font-weight="700" fill="#202124" font-family="Menlo, Consolas, monospace">setup.sh · start.sh</text>
+<text x="66" y="460" font-size="12.5" font-weight="600" fill="#202124">开店按钮</text>
+<text x="34" y="488" font-size="11" fill="#3C4043">一键安装依赖 /</text>
+<text x="34" y="503" font-size="11" fill="#3C4043">启动本机服务（另有 .command 双击版）</text>
+<rect x="352" y="422" width="308" height="96" rx="10" fill="#FFF8E1" stroke="#F9AB00" stroke-dasharray="5,3"/>
+<rect x="364" y="434" width="24" height="24" rx="6" fill="#F9AB00"/>
+<text x="376" y="451" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle">P</text>
+<text x="398" y="445" font-size="12.5" font-weight="700" fill="#202124" font-family="Menlo, Consolas, monospace">data/</text>
+<text x="398" y="460" font-size="12.5" font-weight="600" fill="#202124">食材储藏室</text>
+<text x="366" y="488" font-size="11" fill="#3C4043"></text>
+<text x="366" y="503" font-size="11" fill="#3C4043">运行数据：只留在你的机器上，不进仓库</text>
+<rect x="20" y="540" width="640" height="34" rx="8" fill="#F8F9FA" stroke="#DADCE0"/>
+<text x="32" y="561" font-size="11" fill="#5F6368">不在仓库里（本地生成）：data/ · .venv/ · node_modules/ · frontend/dist* —— 首次运行 setup.sh 时现场搭建</text>
+</svg>
